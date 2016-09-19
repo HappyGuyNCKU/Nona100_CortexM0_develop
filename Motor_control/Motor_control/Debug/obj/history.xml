@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -Os -c -DFLASH_DEBUG -DNANO100LE3BN -I..\..\..\..\Nona100_CortexM0_develop\Motor_control\cmsis_boot -I..\..\..\..\Nona100_CortexM0_develop\Motor_control -I..\..\..\..\Nona100_CortexM0_develop\Motor_control\cmsis_lib\include -I..\..\..\..\Nona100_CortexM0_develop\Motor_control\cmsis_core -I..\..\..\..\Nona100_CortexM0_develop\Motor_control\lib -I..\..\..\..\Nona100_CortexM0_develop\Motor_control\cmsis_lib -I..\..\..\..\Nona100_CortexM0_develop\Motor_control\cmsis_lib\include\system -I..\..\..\..\Nona100_CortexM0_develop\Motor_control\lib\include -I..\..\..\..\Nona100_CortexM0_develop">
+      <target file="syscalls.o" lastModified="1574276c9f2">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15741817120"/>
+      </target>
+      <target file="nano1xx_pdma.o" lastModified="1574276c7c4">
+         <source file="..\..\..\lib\source\nano1xx_pdma.c" lastModified="15596bc3a30"/>
+      </target>
+      <target file="nano1xx_pwm.o" lastModified="1574276ced5">
+         <source file="..\..\..\lib\source\nano1xx_pwm.c" lastModified="15596bc3a30"/>
+      </target>
+      <target file="nano1xx_adc.o" lastModified="1574276c97f">
+         <source file="..\..\..\lib\source\nano1xx_adc.c" lastModified="15596bc3260"/>
+      </target>
+      <target file="printf.o" lastModified="1574276c8fe">
+         <source file="..\..\..\stdio\printf.c" lastModified="15741817128"/>
+      </target>
+      <target file="nano1xx_gpio.o" lastModified="1574276c62a">
+         <source file="..\..\..\lib\source\nano1xx_gpio.c" lastModified="15596bc3260"/>
+      </target>
+      <target file="nano1xx_fmc.o" lastModified="1574276ca74">
+         <source file="..\..\..\lib\source\nano1xx_fmc.c" lastModified="15596bc3260"/>
+      </target>
+      <target file="system_NANO1xx.o" lastModified="1574276c86b">
+         <source file="..\..\..\cmsis_boot\system_NANO1xx.c" lastModified="15596bb4fd0"/>
+      </target>
+      <target file="startup_NANO1xx.o" lastModified="1574276cabd">
+         <source file="..\..\..\cmsis_boot\startup\startup_NANO1xx.c" lastModified="15596bc22c0"/>
+      </target>
+      <target file="main.o" lastModified="1574276c815">
+         <source file="..\..\..\main.c" lastModified="1574268e466"/>
+      </target>
+      <target file="nano1xx_rtc.o" lastModified="1574276cd40">
+         <source file="..\..\..\lib\source\nano1xx_rtc.c" lastModified="15596bc3a30"/>
+      </target>
+      <target file="nano1xx_i2c.o" lastModified="1574276cc50">
+         <source file="..\..\..\lib\source\nano1xx_i2c.c" lastModified="15596bc3260"/>
+      </target>
+      <target file="nano1xx_uart.o" lastModified="1574276cdf2">
+         <source file="..\..\..\lib\source\nano1xx_uart.c" lastModified="15596bc3a30"/>
+      </target>
+      <target file="nano1xx_timer.o" lastModified="1574276c69e">
+         <source file="..\..\..\lib\source\nano1xx_timer.c" lastModified="15596bc3a30"/>
+      </target>
+      <target file="nano1xx_sys.o" lastModified="1574276c515">
+         <source file="..\..\..\lib\source\nano1xx_sys.c" lastModified="15596bc3a30"/>
+      </target>
+      <target file="nano1xx_dac.o" lastModified="1574276c719">
+         <source file="..\..\..\lib\source\nano1xx_dac.c" lastModified="15596bc3260"/>
+      </target>
+      <target file="nano1xx_spi.o" lastModified="1574276cbcd">
+         <source file="..\..\..\lib\source\nano1xx_spi.c" lastModified="15596bc3a30"/>
+      </target>
+   </processor>
+</history>

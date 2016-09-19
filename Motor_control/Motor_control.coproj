@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.8" name="Motor_control">
+  <Target name="Motor_control" isCurrent="1">
+    <Device manufacturerId="8" manufacturerName="Nuvoton" chipId="356" chipName="NANO100LE3BN" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="4"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="FLASH_DEBUG"/>
+          <Define name="NANO100LE3BN"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <Option name="UserEditLinker" value=""/>
+        <LinkedLibraries>
+          <Libset dir="" libs="m"/>
+          <Libset dir="lib\" libs="algo_pedo"/>
+        </LinkedLibraries>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00020000" startValue="0x00000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00004000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="../../coide/configuration/programdata/motor_control/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="Motor_control"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ST-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="100K"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="HW RESET"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="NANO1xx_128.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="30" name="C Library" path="" type="2"/>
+    <Component id="31" name="Retarget printf" path="" type="2"/>
+    <Component id="32" name="iFAT" path="" type="2"/>
+    <Component id="34" name="IFAT Example" path="" type="2"/>
+    <Component id="46" name="M0 Cmsis Core" path="" type="2"/>
+    <Component id="47" name="CooCox OS" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="cmsis_core/core_cmInstr.h" path="cmsis_core/core_cmInstr.h" type="1"/>
+    <File name="lib/source/nano1xx_spi.c" path="lib/source/nano1xx_spi.c" type="1"/>
+    <File name="lib/include/nano1xx_sys.h" path="lib/include/nano1xx_sys.h" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="lib/source/nano1xx_adc.c" path="lib/source/nano1xx_adc.c" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="cmsis_core" path="" type="2"/>
+    <File name="lib/include/nano1xx_timer.h" path="lib/include/nano1xx_timer.h" type="1"/>
+    <File name="lib/include/nano1xx_spi.h" path="lib/include/nano1xx_spi.h" type="1"/>
+    <File name="cmsis_lib/include/system/ModuleID.h" path="cmsis_lib/include/system/ModuleID.h" type="1"/>
+    <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
+    <File name="cmsis_core/core_cm0.h" path="cmsis_core/core_cm0.h" type="1"/>
+    <File name="lib/include/nano1xx_i2c.h" path="lib/include/nano1xx_i2c.h" type="1"/>
+    <File name="lib/include/nano1xx_pwm.h" path="lib/include/nano1xx_pwm.h" type="1"/>
+    <File name="lib/include/nano1xx_adc.h" path="lib/include/nano1xx_adc.h" type="1"/>
+    <File name="stdio/printf.c" path="stdio/printf.c" type="1"/>
+    <File name="lib/source/nano1xx_pdma.c" path="lib/source/nano1xx_pdma.c" type="1"/>
+    <File name="lib/include/nano1xx_uart.h" path="lib/include/nano1xx_uart.h" type="1"/>
+    <File name="lib" path="" type="2"/>
+    <File name="lib/source/nano1xx_uart.c" path="lib/source/nano1xx_uart.c" type="1"/>
+    <File name="lib/include/nano1xx_dac.h" path="lib/include/nano1xx_dac.h" type="1"/>
+    <File name="stdio" path="" type="2"/>
+    <File name="lib/source/nano1xx_sys.c" path="lib/source/nano1xx_sys.c" type="1"/>
+    <File name="lib/source/nano1xx_gpio.c" path="lib/source/nano1xx_gpio.c" type="1"/>
+    <File name="lib/source" path="" type="2"/>
+    <File name="cmsis_lib/include/system" path="" type="2"/>
+    <File name="cmsis_core/core_cmFunc.h" path="cmsis_core/core_cmFunc.h" type="1"/>
+    <File name="lib/include/nano1xx_pdma.h" path="lib/include/nano1xx_pdma.h" type="1"/>
+    <File name="cmsis_boot/system_NANO1xx.h" path="cmsis_boot/system_NANO1xx.h" type="1"/>
+    <File name="lib/include/nano1xx_gpio.h" path="lib/include/nano1xx_gpio.h" type="1"/>
+    <File name="include" path="" type="2"/>
+    <File name="lib/source/nano1xx_fmc.c" path="lib/source/nano1xx_fmc.c" type="1"/>
+    <File name="lib/include/nano1xx_fmc.h" path="lib/include/nano1xx_fmc.h" type="1"/>
+    <File name="cmsis_boot/NANO1xx.h" path="cmsis_boot/NANO1xx.h" type="1"/>
+    <File name="lib/source/nano1xx_timer.c" path="lib/source/nano1xx_timer.c" type="1"/>
+    <File name="cmsis_lib/include/system/SysInfra.h" path="cmsis_lib/include/system/SysInfra.h" type="1"/>
+    <File name="lib/include/nano1xx_rtc.h" path="lib/include/nano1xx_rtc.h" type="1"/>
+    <File name="lib/libalgo_pedo.a" path="lib/libalgo_pedo.a" type="1"/>
+    <File name="lib/source/nano1xx_i2c.c" path="lib/source/nano1xx_i2c.c" type="1"/>
+    <File name="cmsis_boot/startup/startup_NANO1xx.c" path="cmsis_boot/startup/startup_NANO1xx.c" type="1"/>
+    <File name="cmsis_lib" path="" type="2"/>
+    <File name="cmsis_boot/system_NANO1xx.c" path="cmsis_boot/system_NANO1xx.c" type="1"/>
+    <File name="syscalls" path="" type="2"/>
+    <File name="lib/include" path="" type="2"/>
+    <File name="cmsis_lib/include" path="" type="2"/>
+    <File name="lib/include/nano1xx_assert.h" path="lib/include/nano1xx_assert.h" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="lib/source/nano1xx_rtc.c" path="lib/source/nano1xx_rtc.c" type="1"/>
+    <File name="lib/source/nano1xx_dac.c" path="lib/source/nano1xx_dac.c" type="1"/>
+    <File name="lib/source/nano1xx_pwm.c" path="lib/source/nano1xx_pwm.c" type="1"/>
+  </Files>
+</Project>

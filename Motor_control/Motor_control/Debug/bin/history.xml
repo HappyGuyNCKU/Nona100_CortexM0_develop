@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=Motor_control.map -Os --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Motor_control -TC:\CooCox\CoIDE\configuration\ProgramData\Motor_control/arm-gcc-link.ld -g -L..\..\.. -lm -L..\..\..\lib -lalgo_pedo">
+      <target file="Motor_control.elf" lastModified="1574276d0d2">
+         <source file="..\..\..\lib\libalgo_pedo.a" lastModified="15596bb6f10"/>
+         <source file="..\obj\nano1xx_sys.o" lastModified="1574276c515"/>
+         <source file="..\obj\nano1xx_gpio.o" lastModified="1574276c62a"/>
+         <source file="..\obj\nano1xx_timer.o" lastModified="1574276c69e"/>
+         <source file="..\obj\nano1xx_dac.o" lastModified="1574276c719"/>
+         <source file="..\obj\nano1xx_pdma.o" lastModified="1574276c7c4"/>
+         <source file="..\obj\main.o" lastModified="1574276c815"/>
+         <source file="..\obj\system_NANO1xx.o" lastModified="1574276c86b"/>
+         <source file="..\obj\printf.o" lastModified="1574276c8fe"/>
+         <source file="..\obj\nano1xx_adc.o" lastModified="1574276c97f"/>
+         <source file="..\obj\syscalls.o" lastModified="1574276c9f2"/>
+         <source file="..\obj\nano1xx_fmc.o" lastModified="1574276ca74"/>
+         <source file="..\obj\startup_NANO1xx.o" lastModified="1574276cabd"/>
+         <source file="..\obj\nano1xx_spi.o" lastModified="1574276cbcd"/>
+         <source file="..\obj\nano1xx_i2c.o" lastModified="1574276cc50"/>
+         <source file="..\obj\nano1xx_rtc.o" lastModified="1574276cd40"/>
+         <source file="..\obj\nano1xx_uart.o" lastModified="1574276cdf2"/>
+         <source file="..\obj\nano1xx_pwm.o" lastModified="1574276ced5"/>
+      </target>
+   </processor>
+</history>
