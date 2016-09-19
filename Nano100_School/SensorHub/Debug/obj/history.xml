@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -Os -c -DFLASH_DEBUG -DNANO100LE3BN -I..\..\..\..\Work\Nano100_School\cmsis_core -I..\..\..\..\Work\Nano100_School\cmsis_lib -I..\..\..\..\Work\Nano100_School\cmsis_lib\include\system -I..\..\..\..\Work\Nano100_School\lib -I..\..\..\..\Work\Nano100_School\cmsis_lib\include -I..\..\..\..\Work\Nano100_School\lib\include -I..\..\..\..\Work\Nano100_School\cmsis_boot -I..\..\..\..\Work -I..\..\..\..\Work\Nano100_School -I..\..\..\..\Work\Nano100_School\include">
+      <target file="drv_spi.o" lastModified="1572dd96801">
+         <source file="..\..\..\src\drv_spi.c" lastModified="15596bb8680"/>
+      </target>
+      <target file="syscalls.o" lastModified="1572dd97ccb">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15596bb9df0"/>
+      </target>
+      <target file="nano1xx_i2c.o" lastModified="1572dd982e4">
+         <source file="..\..\..\lib\source\nano1xx_i2c.c" lastModified="15596bc3260"/>
+      </target>
+      <target file="nano1xx_spi.o" lastModified="1572dd9826c">
+         <source file="..\..\..\lib\source\nano1xx_spi.c" lastModified="15596bc3a30"/>
+      </target>
+      <target file="nano1xx_fmc.o" lastModified="1572dd97dd5">
+         <source file="..\..\..\lib\source\nano1xx_fmc.c" lastModified="15596bc3260"/>
+      </target>
+      <target file="sys_init.o" lastModified="1572dd97004">
+         <source file="..\..\..\src\sys_init.c" lastModified="15596bb9620"/>
+      </target>
+      <target file="sys_ui.o" lastModified="1572dd97b60">
+         <source file="..\..\..\src\sys_ui.c" lastModified="15596bb9620"/>
+      </target>
+      <target file="sensor_acc_LSM303DLHC.o" lastModified="1572dd9721c">
+         <source file="..\..\..\src\sensor_acc_LSM303DLHC.c" lastModified="15596bb9620"/>
+      </target>
+      <target file="drv_gpio.o" lastModified="1572dd9854a">
+         <source file="..\..\..\src\drv_gpio.c" lastModified="15596bb8680"/>
+      </target>
+      <target file="nano1xx_pwm.o" lastModified="1572dd98689">
+         <source file="..\..\..\lib\source\nano1xx_pwm.c" lastModified="15596bc3a30"/>
+      </target>
+      <target file="nano1xx_gpio.o" lastModified="1572dd96c4a">
+         <source file="..\..\..\lib\source\nano1xx_gpio.c" lastModified="15596bc3260"/>
+      </target>
+      <target file="system_NANO1xx.o" lastModified="1572dd9750a">
+         <source file="..\..\..\cmsis_boot\system_NANO1xx.c" lastModified="15596bb4fd0"/>
+      </target>
+      <target file="nano1xx_timer.o" lastModified="1572dd96cc4">
+         <source file="..\..\..\lib\source\nano1xx_timer.c" lastModified="15596bc3a30"/>
+      </target>
+      <target file="drv_flash_SST25VF032B.o" lastModified="1572dd9816f">
+         <source file="..\..\..\src\drv_flash_SST25VF032B.c" lastModified="15596bb8680"/>
+      </target>
+      <target file="sys_info.o" lastModified="1572dd9776a">
+         <source file="..\..\..\src\sys_info.c" lastModified="15596bb9620"/>
+      </target>
+      <target file="drv_rtc.o" lastModified="1572dd96b1a">
+         <source file="..\..\..\src\drv_rtc.c" lastModified="15596bb8680"/>
+      </target>
+      <target file="startup_NANO1xx.o" lastModified="1572dd97e8a">
+         <source file="..\..\..\cmsis_boot\startup\startup_NANO1xx.c" lastModified="15596bc22c0"/>
+      </target>
+      <target file="drv_int.o" lastModified="1572dd9715e">
+         <source file="..\..\..\src\drv_int.c" lastModified="15596bb8680"/>
+      </target>
+      <target file="nano1xx_pdma.o" lastModified="1572dd972f1">
+         <source file="..\..\..\lib\source\nano1xx_pdma.c" lastModified="15596bc3a30"/>
+      </target>
+      <target file="sensor_spo2.o" lastModified="1572dd9832d">
+         <source file="..\..\..\src\sensor_spo2.c" lastModified="15596bb9620"/>
+      </target>
+      <target file="drv_adc.o" lastModified="1572dd97d41">
+         <source file="..\..\..\src\drv_adc.c" lastModified="15596bb76e0"/>
+      </target>
+      <target file="sys_util.o" lastModified="1572dd962d5">
+         <source file="..\..\..\src\sys_util.c" lastModified="15596bb9df0"/>
+      </target>
+      <target file="sys_shell.o" lastModified="1572dd96d37">
+         <source file="..\..\..\src\sys_shell.c" lastModified="15596bb9620"/>
+      </target>
+      <target file="nano1xx_sys.o" lastModified="1572dd9693a">
+         <source file="..\..\..\lib\source\nano1xx_sys.c" lastModified="15596bc3a30"/>
+      </target>
+      <target file="printf.o" lastModified="1572dd977f8">
+         <source file="..\..\..\stdio\printf.c" lastModified="15596bb9df0"/>
+      </target>
+      <target file="drv_timer.o" lastModified="1572dd96f4c">
+         <source file="..\..\..\src\drv_timer.c" lastModified="15596bb8680"/>
+      </target>
+      <target file="nano1xx_rtc.o" lastModified="1572dd98464">
+         <source file="..\..\..\lib\source\nano1xx_rtc.c" lastModified="15596bc3a30"/>
+      </target>
+      <target file="drv_uart.o" lastModified="1572dd97e42">
+         <source file="..\..\..\src\drv_uart.c" lastModified="15596bb8e50"/>
+      </target>
+      <target file="nano1xx_dac.o" lastModified="1572dd96fbe">
+         <source file="..\..\..\lib\source\nano1xx_dac.c" lastModified="15596bc3260"/>
+      </target>
+      <target file="drv_bt_SBC2112.o" lastModified="1572dd966e5">
+         <source file="..\..\..\src\drv_bt_SBC2112.c" lastModified="15596bb8680"/>
+      </target>
+      <target file="algo_spo2hr.o" lastModified="1572dd9838e">
+         <source file="..\..\..\src\algo_spo2hr.c" lastModified="15596bb6f10"/>
+      </target>
+      <target file="main.o" lastModified="1572dd973bf">
+         <source file="..\..\..\main.c" lastModified="15596bb20f0"/>
+      </target>
+      <target file="nano1xx_adc.o" lastModified="1572dd97877">
+         <source file="..\..\..\lib\source\nano1xx_adc.c" lastModified="15596bc3260"/>
+      </target>
+      <target file="algo_pedo_r4.o" lastModified="1572dd974b4">
+         <source file="..\..\..\src\algo_pedo_r4.c" lastModified="15596bb6f10"/>
+      </target>
+      <target file="nano1xx_uart.o" lastModified="1572dd984fb">
+         <source file="..\..\..\lib\source\nano1xx_uart.c" lastModified="15596bc3a30"/>
+      </target>
+      <target file="sensor_alt_BMP180.o" lastModified="1572dd97c72">
+         <source file="..\..\..\src\sensor_alt_BMP180.c" lastModified="15596bb9620"/>
+      </target>
+      <target file="drv_display_SSD1306.o" lastModified="1572dd96a83">
+         <source file="..\..\..\src\drv_display_SSD1306.c" lastModified="15596bb8680"/>
+      </target>
+      <target file="drv_i2c.o" lastModified="1572dd968a7">
+         <source file="..\..\..\src\drv_i2c.c" lastModified="15596bb8680"/>
+      </target>
+   </processor>
+</history>

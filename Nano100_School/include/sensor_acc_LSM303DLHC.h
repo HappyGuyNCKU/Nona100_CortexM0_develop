@@ -1,0 +1,10 @@
+#ifndef SENSOR_ACC_LSM303DLHC_H
+#define SENSOR_ACC_LSM303DLHC_H
+
+int ACC_LSM303DLHC_Init();
+int ACC_LSM303DLHC_Start();
+int ACC_LSM303DLHC_Set();
+int ACC_LSM303DLHC_Get();
+int ACC_LSM303DLHC_Stop();
+
+#endif

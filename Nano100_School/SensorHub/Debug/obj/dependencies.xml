@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\Work\Nano100_School\cmsis_core /I..\..\..\..\Work\Nano100_School\cmsis_lib /I..\..\..\..\Work\Nano100_School\cmsis_lib\include\system /I..\..\..\..\Work\Nano100_School\lib /I..\..\..\..\Work\Nano100_School\cmsis_lib\include /I..\..\..\..\Work\Nano100_School\lib\include /I..\..\..\..\Work\Nano100_School\cmsis_boot /I..\..\..\..\Work /I..\..\..\..\Work\Nano100_School /I..\..\..\..\Work\Nano100_School\include">
+      <source file="..\..\..\src\algo_pedo_r4.c" lastModified="15596bb72f8">
+         <include file="..\..\..\include\algo_pedo_r4.h"/>
+      </source>
+      <source file="..\..\..\src\drv_spi.c" lastModified="15596bb8a68">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_spi.h"/>
+         <include file="..\..\..\include\drv_spi.h"/>
+         <include file="..\..\..\include\drv_uart.h"/>
+      </source>
+      <source file="..\..\..\lib\include\nano1xx_spi.h" lastModified="15596bc2a90">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\src\sys_ui.c" lastModified="15596bb9a08">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\include\drv_timer.h"/>
+         <include file="..\..\..\include\drv_bt_SBC2112.h"/>
+         <include file="..\..\..\include\drv_display_SSD1306.h"/>
+         <include file="..\..\..\include\sys_ui.h"/>
+         <include file="..\..\..\include\sys_info.h"/>
+      </source>
+      <source file="..\..\..\lib\include\nano1xx_pdma.h" lastModified="15596bc22c0">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\NANO1xx.h" lastModified="15596bb4be8">
+         <include file="..\..\..\cmsis_core\core_cm0.h"/>
+         <include file="..\..\..\cmsis_boot\system_NANO1xx.h"/>
+      </source>
+      <source file="..\..\..\include\drv_spi.h" lastModified="15596bb6740">
+      </source>
+      <source file="..\..\..\src\sys_init.c" lastModified="15596bb9620">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_sys.h"/>
+         <include file="..\..\..\lib\include\nano1xx_gpio.h"/>
+         <include file="..\..\..\include\sys_info.h"/>
+         <include file="..\..\..\include\sys_init.h"/>
+      </source>
+      <source file="..\..\..\src\sys_util.c" lastModified="15596bb9df0">
+         <include file="..\..\..\include\sys_util.h"/>
+      </source>
+      <source file="..\..\..\include\algo_pedo_r4.h" lastModified="15596bb5f70">
+      </source>
+      <source file="..\..\..\lib\include\nano1xx_timer.h" lastModified="15596bc2a90">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\src\sensor_alt_BMP180.c" lastModified="15596bb9df0">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_gpio.h"/>
+         <include file="..\..\..\include\drv_i2c.h"/>
+         <include file="..\..\..\include\drv_uart.h"/>
+         <include file="..\..\..\include\sys_util.h"/>
+         <include file="..\..\..\include\sensor_alt_BMP180.h"/>
+      </source>
+      <source file="..\..\..\src\sys_info.c" lastModified="15596bba5c0">
+         <include file="..\..\..\include\drv_rtc.h"/>
+         <include file="..\..\..\include\drv_uart.h"/>
+         <include file="..\..\..\include\drv_timer.h"/>
+         <include file="..\..\..\include\drv_flash_SST25VF032B.h"/>
+         <include file="..\..\..\include\sys_info.h"/>
+      </source>
+      <source file="..\..\..\lib\source\nano1xx_adc.c" lastModified="15596bc3260">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_adc.h"/>
+         <include file="..\..\..\lib\include\nano1xx_sys.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\include\drv_uart.h" lastModified="15596bb6740">
+      </source>
+      <source file="..\..\..\src\drv_adc.c" lastModified="15596bb8298">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_adc.h"/>
+         <include file="..\..\..\include\drv_adc.h"/>
+         <include file="..\..\..\include\drv_uart.h"/>
+      </source>
+      <source file="..\..\..\src\drv_timer.c" lastModified="15596bb8680">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_timer.h"/>
+         <include file="..\..\..\lib\include\nano1xx_uart.h"/>
+         <include file="..\..\..\include\drv_adc.h"/>
+         <include file="..\..\..\include\drv_timer.h"/>
+         <include file="..\..\..\include\drv_uart.h"/>
+         <include file="..\..\..\include\drv_bt_SBC2112.h"/>
+         <include file="..\..\..\include\sys_info.h"/>
+         <include file="..\..\..\include\sys_ui.h"/>
+         <include file="..\..\..\include\sys_util.h"/>
+         <include file="..\..\..\include\sensor_acc_LSM303DLHC.h"/>
+         <include file="..\..\..\include\sensor_spo2.h"/>
+         <include file="..\..\..\include\algo_spo2hr.h"/>
+         <include file="..\..\..\include\algo_pedo_r4.h"/>
+      </source>
+      <source file="..\..\..\include\drv_gpio.h" lastModified="15596bb5f70">
+      </source>
+      <source file="..\..\..\lib\include\nano1xx_adc.h" lastModified="15596bc22c0">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\include\sensor_spo2.h" lastModified="15596bb6740">
+      </source>
+      <source file="..\..\..\cmsis_core\core_cmInstr.h" lastModified="15596bb6740">
+      </source>
+      <source file="..\..\..\include\drv_adc.h" lastModified="15596bb5f70">
+      </source>
+      <source file="..\..\..\src\drv_bt_SBC2112.c" lastModified="15596bb9238">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_gpio.h"/>
+         <include file="..\..\..\lib\include\nano1xx_uart.h"/>
+         <include file="..\..\..\include\drv_bt_SBC2112.h"/>
+         <include file="..\..\..\include\sys_util.h"/>
+         <include file="..\..\..\include\sys_info.h"/>
+      </source>
+      <source file="..\..\..\src\sys_shell.c" lastModified="15596bba5c0">
+         <include file="..\..\..\include\sys_shell.h"/>
+      </source>
+      <source file="..\..\..\lib\source\nano1xx_i2c.c" lastModified="15596bc3648">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_i2c.h"/>
+      </source>
+      <source file="..\..\..\include\drv_timer.h" lastModified="15596bb6740">
+      </source>
+      <source file="..\..\..\src\drv_display_SSD1306.c" lastModified="15596bb8680">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_spi.h"/>
+         <include file="..\..\..\lib\include\nano1xx_gpio.h"/>
+         <include file="..\..\..\include\drv_spi.h"/>
+         <include file="..\..\..\include\drv_uart.h"/>
+         <include file="..\..\..\include\drv_display_SSD1306.h"/>
+         <include file="..\..\..\include\sys_util.h"/>
+      </source>
+      <source file="..\..\..\lib\source\nano1xx_rtc.c" lastModified="15596bc3e18">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_rtc.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\include\drv_bt_SBC2112.h" lastModified="15596bb5f70">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+      </source>
+      <source file="..\..\..\src\drv_i2c.c" lastModified="15596bb8a68">
+         <include file="..\..\..\include\drv_i2c.h"/>
+         <include file="..\..\..\include\drv_uart.h"/>
+      </source>
+      <source file="..\..\..\lib\include\nano1xx_i2c.h" lastModified="15596bc22c0">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_sys.h"/>
+      </source>
+      <source file="..\..\..\src\drv_rtc.c" lastModified="15596bb9238">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_rtc.h"/>
+         <include file="..\..\..\lib\include\nano1xx_sys.h"/>
+         <include file="..\..\..\include\drv_rtc.h"/>
+         <include file="..\..\..\include\drv_uart.h"/>
+         <include file="..\..\..\include\sys_info.h"/>
+      </source>
+      <source file="..\..\..\src\drv_int.c" lastModified="15596bb9238">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_gpio.h"/>
+         <include file="..\..\..\include\drv_int.h"/>
+         <include file="..\..\..\include\drv_uart.h"/>
+         <include file="..\..\..\include\drv_timer.h"/>
+         <include file="..\..\..\include\drv_bt_SBC2112.h"/>
+         <include file="..\..\..\include\drv_display_SSD1306.h"/>
+         <include file="..\..\..\include\sys_ui.h"/>
+         <include file="..\..\..\include\sys_info.h"/>
+      </source>
+      <source file="..\..\..\lib\include\nano1xx_rtc.h" lastModified="15596bc3648">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_core\core_cm0.h" lastModified="15596bb5b88">
+         <include file="..\..\..\cmsis_core\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis_core\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\include\algo_spo2hr.h" lastModified="15596bb5f70">
+      </source>
+      <source file="..\..\..\lib\source\nano1xx_fmc.c" lastModified="15596bc3648">
+         <include file="..\..\..\lib\include\nano1xx_fmc.h"/>
+      </source>
+      <source file="..\..\..\include\sys_shell.h" lastModified="15596bb6f10">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="15596bbad90">
+      </source>
+      <source file="..\..\..\src\sensor_spo2.c" lastModified="15596bb9620">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_gpio.h"/>
+         <include file="..\..\..\include\sensor_spo2.h"/>
+      </source>
+      <source file="..\..\..\include\sys_init.h" lastModified="15596bb6f10">
+      </source>
+      <source file="..\..\..\cmsis_core\core_cmFunc.h" lastModified="15596bb6740">
+      </source>
+      <source file="..\..\..\include\drv_flash_SST25VF032B.h" lastModified="15596bb5f70">
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="15596bba5c0">
+      </source>
+      <source file="..\..\..\include\sys_util.h" lastModified="15596bb6f10">
+      </source>
+      <source file="..\..\..\include\drv_i2c.h" lastModified="15596bb6740">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_i2c.h"/>
+      </source>
+      <source file="..\..\..\lib\include\nano1xx_fmc.h" lastModified="15596bc22c0">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+      </source>
+      <source file="..\..\..\lib\source\nano1xx_pwm.c" lastModified="15596bc3a30">
+         <include file="..\..\..\lib\include\nano1xx_pwm.h"/>
+         <include file="..\..\..\lib\include\nano1xx_sys.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\lib\source\nano1xx_dac.c" lastModified="15596bc3e18">
+         <include file="..\..\..\lib\include\nano1xx_dac.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\include\drv_rtc.h" lastModified="15596bb6740">
+      </source>
+      <source file="..\..\..\include\drv_int.h" lastModified="15596bb6740">
+      </source>
+      <source file="..\..\..\src\algo_spo2hr.c" lastModified="15596bb72f8">
+         <include file="..\..\..\include\algo_spo2hr.h"/>
+      </source>
+      <source file="..\..\..\include\sensor_alt_BMP180.h" lastModified="15596bb6740">
+      </source>
+      <source file="..\..\..\include\sys_info.h" lastModified="15596bb6f10">
+      </source>
+      <source file="..\..\..\lib\include\nano1xx_dac.h" lastModified="15596bc2e78">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\lib\include\nano1xx_pwm.h" lastModified="15596bc2a90">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_NANO1xx.h" lastModified="15596bb53b8">
+      </source>
+      <source file="..\..\..\lib\source\nano1xx_gpio.c" lastModified="15596bc3648">
+         <include file="..\..\..\lib\include\nano1xx_gpio.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\src\drv_flash_SST25VF032B.c" lastModified="15596bb8680">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_spi.h"/>
+         <include file="..\..\..\include\drv_spi.h"/>
+         <include file="..\..\..\include\drv_uart.h"/>
+         <include file="..\..\..\include\drv_flash_SST25VF032B.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_NANO1xx.c" lastModified="15596bb53b8">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+      </source>
+      <source file="..\..\..\include\sys_ui.h" lastModified="15596bb6f10">
+      </source>
+      <source file="..\..\..\lib\source\nano1xx_timer.c" lastModified="15596bc3a30">
+         <include file="..\..\..\lib\include\nano1xx_sys.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_NANO1xx.c" lastModified="15596bc22c0">
+      </source>
+      <source file="..\..\..\lib\source\nano1xx_uart.c" lastModified="15596bc3e18">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_uart.h"/>
+         <include file="..\..\..\lib\include\nano1xx_sys.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\lib\include\nano1xx_gpio.h" lastModified="15596bc22c0">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+      </source>
+      <source file="..\..\..\src\drv_gpio.c" lastModified="15596bb8680">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_gpio.h"/>
+         <include file="..\..\..\include\drv_gpio.h"/>
+         <include file="..\..\..\include\sys_util.h"/>
+      </source>
+      <source file="..\..\..\include\sensor_acc_LSM303DLHC.h" lastModified="15596bb6740">
+      </source>
+      <source file="..\..\..\lib\source\nano1xx_pdma.c" lastModified="15596bc3e18">
+         <include file="..\..\..\lib\include\nano1xx_pdma.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\lib\source\nano1xx_sys.c" lastModified="15596bc3e18">
+         <include file="..\..\..\lib\include\nano1xx_sys.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="15596bb3860">
+         <include file="..\..\..\include\drv_adc.h"/>
+         <include file="..\..\..\include\drv_gpio.h"/>
+         <include file="..\..\..\include\drv_uart.h"/>
+         <include file="..\..\..\include\drv_i2c.h"/>
+         <include file="..\..\..\include\drv_int.h"/>
+         <include file="..\..\..\include\drv_rtc.h"/>
+         <include file="..\..\..\include\drv_timer.h"/>
+         <include file="..\..\..\include\drv_bt_SBC2112.h"/>
+         <include file="..\..\..\include\drv_display_SSD1306.h"/>
+         <include file="..\..\..\include\drv_flash_SST25VF032B.h"/>
+         <include file="..\..\..\include\sys_ui.h"/>
+         <include file="..\..\..\include\sys_info.h"/>
+         <include file="..\..\..\include\sys_init.h"/>
+         <include file="..\..\..\include\sys_util.h"/>
+         <include file="..\..\..\include\sys_shell.h"/>
+         <include file="..\..\..\include\sensor_spo2.h"/>
+         <include file="..\..\..\include\sensor_alt_BMP180.h"/>
+         <include file="..\..\..\include\sensor_acc_LSM303DLHC.h"/>
+         <include file="..\..\..\include\algo_pedo_r4.h"/>
+         <include file="..\..\..\include\algo_spo2hr.h"/>
+      </source>
+      <source file="..\..\..\include\drv_display_SSD1306.h" lastModified="15596bb5f70">
+      </source>
+      <source file="..\..\..\lib\include\nano1xx_uart.h" lastModified="15596bc2a90">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+      </source>
+      <source file="..\..\..\lib\include\nano1xx_sys.h" lastModified="15596bc2a90">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+      </source>
+      <source file="..\..\..\lib\include\nano1xx_assert.h" lastModified="15596bc22c0">
+      </source>
+      <source file="..\..\..\src\drv_uart.c" lastModified="15596bb8e50">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_uart.h"/>
+         <include file="..\..\..\include\drv_uart.h"/>
+      </source>
+      <source file="..\..\..\lib\source\nano1xx_spi.c" lastModified="15596bc4200">
+         <include file="..\..\..\lib\include\nano1xx_sys.h"/>
+         <include file="..\..\..\lib\include\nano1xx_spi.h"/>
+         <include file="..\..\..\lib\include\nano1xx_assert.h"/>
+      </source>
+      <source file="..\..\..\src\sensor_acc_LSM303DLHC.c" lastModified="15596bb9a08">
+         <include file="..\..\..\cmsis_boot\NANO1xx.h"/>
+         <include file="..\..\..\lib\include\nano1xx_gpio.h"/>
+         <include file="..\..\..\include\drv_i2c.h"/>
+         <include file="..\..\..\include\drv_uart.h"/>
+         <include file="..\..\..\include\sys_info.h"/>
+         <include file="..\..\..\include\sensor_acc_LSM303DLHC.h"/>
+      </source>
+   </includePath>
+</dependencies>

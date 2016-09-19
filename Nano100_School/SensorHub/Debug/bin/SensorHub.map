@@ -1,0 +1,2210 @@
+Archive member included because of file (symbol)
+
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o)
+                              ..\obj\sensor_alt_BMP180.o (powf)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o) (__ieee754_powf)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_sqrt.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o) (__ieee754_sqrtf)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_lib_ver.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o) (__fdlib_version)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o) (matherr)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_rint.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o) (rint)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fabs.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o) (fabsf)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_finite.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o) (finitef)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fpclassify.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o) (__fpclassifyf)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_nan.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o) (nanf)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_scalbn.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o) (scalbnf)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_copysign.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_scalbn.o) (copysignf)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+                              ..\obj\drv_timer.o (__gnu_thumb1_case_uqi)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uhi.o)
+                              ..\obj\sys_ui.o (__gnu_thumb1_case_uhi)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                              ..\obj\nano1xx_sys.o (__aeabi_uidiv)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+                              ..\obj\drv_timer.o (__aeabi_idiv)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o) (__aeabi_dcmpeq)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpsf2.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o) (__aeabi_fcmpeq)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(addsf3.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o) (__aeabi_fadd)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divsf3.o)
+                              ..\obj\sensor_alt_BMP180.o (__aeabi_fdiv)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqsf2.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpsf2.o) (__eqsf2)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gesf2.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpsf2.o) (__gesf2)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(lesf2.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpsf2.o) (__lesf2)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o) (__aeabi_fmul)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subsf3.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o) (__aeabi_fsub)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsisf.o)
+                              ..\obj\sensor_alt_BMP180.o (__aeabi_i2f)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+                              ..\obj\sensor_alt_BMP180.o (__aeabi_dadd)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o) (__aeabi_ddiv)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o) (__eqdf2)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o) (__gedf2)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o) (__ledf2)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+                              ..\obj\algo_pedo_r4.o (__aeabi_dmul)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+                              ..\obj\sensor_alt_BMP180.o (__aeabi_dsub)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+                              ..\obj\sensor_alt_BMP180.o (__aeabi_d2iz)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsidf.o)
+                              ..\obj\algo_pedo_r4.o (__aeabi_i2d)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(extendsfdf2.o)
+                              ..\obj\sensor_alt_BMP180.o (__aeabi_f2d)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(truncdfsf2.o)
+                              ..\obj\sensor_alt_BMP180.o (__aeabi_d2f)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(addsf3.o) (__clzsi2)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+                              c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o) (__errno)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+                              ..\obj\drv_bt_SBC2112.o (memset)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcpy.o)
+                              ..\obj\drv_bt_SBC2112.o (strcpy)
+c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)
+                              ..\obj\drv_bt_SBC2112.o (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+bat_index           0x4               ..\obj\drv_timer.o
+temp_raw_buff       0x20              ..\obj\sys_info.o
+bat_value           0x20              ..\obj\drv_timer.o
+alt_raw_buff        0x20              ..\obj\sys_info.o
+ma_value            0x80              ..\obj\sensor_alt_BMP180.o
+ecg_raw_buff        0x200             ..\obj\sys_info.o
+pedo_info_buff      0x200             ..\obj\sys_info.o
+hr_info_buff        0x80              ..\obj\sys_info.o
+temp_info           0x38              ..\obj\sys_info.o
+alt_info            0x38              ..\obj\sys_info.o
+Storage             0x3c              ..\obj\sys_info.o
+sys_tick_buff       0x100             ..\obj\sys_info.o
+ecg_info            0x38              ..\obj\sys_info.o
+alt_info_buff       0x100             ..\obj\sys_info.o
+adc_data            0x1c              ..\obj\drv_timer.o
+BMP180_Calib        0x18              ..\obj\sensor_alt_BMP180.o
+acc_all_raw_buff    0x300             ..\obj\sys_info.o
+temp_info_buff      0x100             ..\obj\sys_info.o
+font_buffer         0x40              ..\obj\sys_ui.o
+bat_sum             0x4               ..\obj\drv_timer.o
+acc_info            0x38              ..\obj\sys_info.o
+state_msg           0x8               ..\obj\sys_ui.o
+sh_info             0x58              ..\obj\sys_info.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\sys_util.o
+ .data          0x00000000       0x10 ..\obj\sys_util.o
+ .bss           0x00000000        0x0 ..\obj\sys_util.o
+ .text.NOP      0x00000000        0x4 ..\obj\sys_util.o
+ .text.dec_to_hex
+                0x00000000       0x14 ..\obj\sys_util.o
+ .text          0x00000000        0x0 ..\obj\drv_bt_SBC2112.o
+ .text.DRV_BT_SBC2112_Send
+                0x00000000       0xf0 ..\obj\drv_bt_SBC2112.o
+ .text.DRV_BT_SBC2112_Recv
+                0x00000000       0x7c ..\obj\drv_bt_SBC2112.o
+ .text          0x00000000        0x0 ..\obj\drv_spi.o
+ .text.DRV_SPI_Start
+                0x00000000        0x4 ..\obj\drv_spi.o
+ .text.DRV_SPI_Handler
+                0x00000000        0x4 ..\obj\drv_spi.o
+ .text.DRV_SPI_isDone
+                0x00000000       0x38 ..\obj\drv_spi.o
+ .text          0x00000000        0x0 ..\obj\drv_i2c.o
+ .text.DRV_I2C_Stop
+                0x00000000       0x60 ..\obj\drv_i2c.o
+ .text.DRV_I2C_Handler
+                0x00000000        0x4 ..\obj\drv_i2c.o
+ .text          0x00000000        0x0 ..\obj\nano1xx_sys.o
+ .data          0x00000000        0x0 ..\obj\nano1xx_sys.o
+ .bss           0x00000000        0x0 ..\obj\nano1xx_sys.o
+ .text.SYS_SelectHCLKSource
+                0x00000000       0x30 ..\obj\nano1xx_sys.o
+ .text.SYS_SetUpPowerDown
+                0x00000000       0x38 ..\obj\nano1xx_sys.o
+ .text.SYS_InitChipClock
+                0x00000000       0xb8 ..\obj\nano1xx_sys.o
+ .text.SYS_Delay
+                0x00000000       0x38 ..\obj\nano1xx_sys.o
+ .rodata        0x00000000       0x3c ..\obj\nano1xx_sys.o
+ .text          0x00000000        0x0 ..\obj\drv_display_SSD1306.o
+ .data          0x00000000        0x0 ..\obj\drv_display_SSD1306.o
+ .text.DRV_DISPLAY_SSD1306_Handler
+                0x00000000        0x4 ..\obj\drv_display_SSD1306.o
+ .text.DRV_DISPLAY_SSD1306_Stop
+                0x00000000        0x4 ..\obj\drv_display_SSD1306.o
+ .text          0x00000000        0x0 ..\obj\drv_rtc.o
+ .data          0x00000000        0x0 ..\obj\drv_rtc.o
+ .bss           0x00000000        0x0 ..\obj\drv_rtc.o
+ .text.DRV_RTC_Stop
+                0x00000000        0xc ..\obj\drv_rtc.o
+ .text.DRV_RTC_Set
+                0x00000000       0x58 ..\obj\drv_rtc.o
+ .text.DRV_RTC_Get
+                0x00000000       0x64 ..\obj\drv_rtc.o
+ .text          0x00000000        0x0 ..\obj\nano1xx_gpio.o
+ .data          0x00000000        0x0 ..\obj\nano1xx_gpio.o
+ .bss           0x00000000        0x0 ..\obj\nano1xx_gpio.o
+ .text.GPIO_EnableInt
+                0x00000000       0x64 ..\obj\nano1xx_gpio.o
+ .text.GPIO_DisableInt
+                0x00000000       0x64 ..\obj\nano1xx_gpio.o
+ .text.GPIO_DisableEINT0
+                0x00000000       0x24 ..\obj\nano1xx_gpio.o
+ .text.GPIO_DisableEINT1
+                0x00000000       0x24 ..\obj\nano1xx_gpio.o
+ .text          0x00000000        0x0 ..\obj\nano1xx_timer.o
+ .data          0x00000000        0x0 ..\obj\nano1xx_timer.o
+ .bss           0x00000000        0x0 ..\obj\nano1xx_timer.o
+ .text.TIMER_ConfigTriggerEvent
+                0x00000000       0x14 ..\obj\nano1xx_timer.o
+ .text.WDT_Init
+                0x00000000       0x28 ..\obj\nano1xx_timer.o
+ .text.WDT_DeInit
+                0x00000000       0x3c ..\obj\nano1xx_timer.o
+ .text.WDT_EnableInt
+                0x00000000       0x1c ..\obj\nano1xx_timer.o
+ .text.WDT_DisableInt
+                0x00000000       0x28 ..\obj\nano1xx_timer.o
+ .text.WWDT_Init
+                0x00000000       0x20 ..\obj\nano1xx_timer.o
+ .text.WWDT_DeInit
+                0x00000000        0x2 ..\obj\nano1xx_timer.o
+ .text.WWDT_IsResetSource
+                0x00000000       0x14 ..\obj\nano1xx_timer.o
+ .text.WWDT_EnableInterrupt
+                0x00000000       0x18 ..\obj\nano1xx_timer.o
+ .text          0x00000000        0x0 ..\obj\sys_shell.o
+ .data          0x00000000        0x0 ..\obj\sys_shell.o
+ .bss           0x00000000        0x0 ..\obj\sys_shell.o
+ .text.shell_process
+                0x00000000        0x4 ..\obj\sys_shell.o
+ .text.shell_close
+                0x00000000        0x4 ..\obj\sys_shell.o
+ .text          0x00000000        0x0 ..\obj\drv_timer.o
+ .text.DRV_TIMER_Close
+                0x00000000       0x34 ..\obj\drv_timer.o
+ .text.DRV_TIMER2_Handler
+                0x00000000        0x4 ..\obj\drv_timer.o
+ .text          0x00000000        0x0 ..\obj\nano1xx_dac.o
+ .data          0x00000000        0x0 ..\obj\nano1xx_dac.o
+ .bss           0x00000000        0x0 ..\obj\nano1xx_dac.o
+ .text.DAC_WriteData
+                0x00000000       0x14 ..\obj\nano1xx_dac.o
+ .text.DAC_SetDelayTime
+                0x00000000       0x34 ..\obj\nano1xx_dac.o
+ .text.DAC_SetLoadSel
+                0x00000000       0x24 ..\obj\nano1xx_dac.o
+ .text.DAC_EnableInterrupt
+                0x00000000       0x30 ..\obj\nano1xx_dac.o
+ .text.DAC_DisableInterrupt
+                0x00000000       0x38 ..\obj\nano1xx_dac.o
+ .text.DAC_GetState
+                0x00000000       0x1c ..\obj\nano1xx_dac.o
+ .debug_info    0x00000000      0x4dd ..\obj\nano1xx_dac.o
+ .debug_abbrev  0x00000000      0x169 ..\obj\nano1xx_dac.o
+ .debug_loc     0x00000000       0xcf ..\obj\nano1xx_dac.o
+ .debug_aranges
+                0x00000000       0x48 ..\obj\nano1xx_dac.o
+ .debug_ranges  0x00000000       0x38 ..\obj\nano1xx_dac.o
+ .debug_line    0x00000000      0x218 ..\obj\nano1xx_dac.o
+ .debug_str     0x00000000      0x4a8 ..\obj\nano1xx_dac.o
+ .comment       0x00000000       0x71 ..\obj\nano1xx_dac.o
+ .debug_frame   0x00000000       0x84 ..\obj\nano1xx_dac.o
+ .ARM.attributes
+                0x00000000       0x31 ..\obj\nano1xx_dac.o
+ .text          0x00000000        0x0 ..\obj\sys_init.o
+ .data          0x00000000        0x0 ..\obj\sys_init.o
+ .bss           0x00000000        0x0 ..\obj\sys_init.o
+ .text.FW_Get_Setting
+                0x00000000        0x4 ..\obj\sys_init.o
+ .text.FW_Save_Setting
+                0x00000000        0x4 ..\obj\sys_init.o
+ .text          0x00000000        0x0 ..\obj\drv_int.o
+ .data          0x00000000        0x0 ..\obj\drv_int.o
+ .text.DRV_INT_Stop
+                0x00000000       0x14 ..\obj\drv_int.o
+ .text          0x00000000        0x0 ..\obj\sensor_acc_LSM303DLHC.o
+ .data          0x00000000        0x0 ..\obj\sensor_acc_LSM303DLHC.o
+ .bss           0x00000000        0x0 ..\obj\sensor_acc_LSM303DLHC.o
+ .text.ACC_LSM303DLHC_Stop
+                0x00000000       0x20 ..\obj\sensor_acc_LSM303DLHC.o
+ .text.ACC_LSM303DLHC_Set
+                0x00000000        0x4 ..\obj\sensor_acc_LSM303DLHC.o
+ .text          0x00000000        0x0 ..\obj\nano1xx_pdma.o
+ .data          0x00000000        0x0 ..\obj\nano1xx_pdma.o
+ .bss           0x00000000        0x0 ..\obj\nano1xx_pdma.o
+ .text.PDMA_Close
+                0x00000000        0xc ..\obj\nano1xx_pdma.o
+ .text.PDMA_Open
+                0x00000000       0x26 ..\obj\nano1xx_pdma.o
+ .text.PDMA_OpenVDMA
+                0x00000000       0x40 ..\obj\nano1xx_pdma.o
+ .text.PDMA_EnableInt
+                0x00000000       0x14 ..\obj\nano1xx_pdma.o
+ .text.PDMA_OpenCRC
+                0x00000000       0x58 ..\obj\nano1xx_pdma.o
+ .text.PDMA_CRCEnableInt
+                0x00000000       0x1c ..\obj\nano1xx_pdma.o
+ .debug_info    0x00000000      0x838 ..\obj\nano1xx_pdma.o
+ .debug_abbrev  0x00000000      0x1d1 ..\obj\nano1xx_pdma.o
+ .debug_loc     0x00000000       0x63 ..\obj\nano1xx_pdma.o
+ .debug_aranges
+                0x00000000       0x48 ..\obj\nano1xx_pdma.o
+ .debug_ranges  0x00000000       0x60 ..\obj\nano1xx_pdma.o
+ .debug_line    0x00000000      0x24e ..\obj\nano1xx_pdma.o
+ .debug_str     0x00000000      0x603 ..\obj\nano1xx_pdma.o
+ .comment       0x00000000       0x71 ..\obj\nano1xx_pdma.o
+ .debug_frame   0x00000000       0x7c ..\obj\nano1xx_pdma.o
+ .ARM.attributes
+                0x00000000       0x31 ..\obj\nano1xx_pdma.o
+ .text          0x00000000        0x0 ..\obj\main.o
+ .data          0x00000000        0x0 ..\obj\main.o
+ .bss           0x00000000        0x0 ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\algo_pedo_r4.o
+ .text.pedoDect_R4_close
+                0x00000000        0x4 ..\obj\algo_pedo_r4.o
+ .text          0x00000000        0x0 ..\obj\system_NANO1xx.o
+ .bss           0x00000000        0x0 ..\obj\system_NANO1xx.o
+ .text.SysInit_PinFunc
+                0x00000000        0x2 ..\obj\system_NANO1xx.o
+ .text          0x00000000        0x0 ..\obj\sys_info.o
+ .text.sys_sensorhub_update
+                0x00000000        0xa ..\obj\sys_info.o
+ .text.sys_sensorhub_dumpinfo
+                0x00000000      0x1d0 ..\obj\sys_info.o
+ .text.sys_sensorhub_read
+                0x00000000       0x18 ..\obj\sys_info.o
+ .text.sys_sensorhub_write
+                0x00000000       0x28 ..\obj\sys_info.o
+ .text.sys_sensors_update
+                0x00000000        0x4 ..\obj\sys_info.o
+ .text.sys_sensors_read
+                0x00000000        0x8 ..\obj\sys_info.o
+ .text.sys_sensors_write
+                0x00000000        0x8 ..\obj\sys_info.o
+ .text.sys_data_read
+                0x00000000       0x18 ..\obj\sys_info.o
+ .text          0x00000000        0x0 ..\obj\printf.o
+ .bss           0x00000000        0x0 ..\obj\printf.o
+ .text.PrintChar
+                0x00000000        0x2 ..\obj\printf.o
+ .text.PutChar  0x00000000        0x6 ..\obj\printf.o
+ .text.snprintf
+                0x00000000       0x16 ..\obj\printf.o
+ .text.fputc    0x00000000       0x20 ..\obj\printf.o
+ .text.fputs    0x00000000       0x22 ..\obj\printf.o
+ .text.vfprintf
+                0x00000000       0x1e ..\obj\printf.o
+ .text.vprintf  0x00000000       0x18 ..\obj\printf.o
+ .text.printf   0x00000000       0x16 ..\obj\printf.o
+ .text.fprintf  0x00000000       0x16 ..\obj\printf.o
+ .text.puts     0x00000000       0x14 ..\obj\printf.o
+ .text          0x00000000        0x0 ..\obj\nano1xx_adc.o
+ .data          0x00000000        0x0 ..\obj\nano1xx_adc.o
+ .bss           0x00000000        0x0 ..\obj\nano1xx_adc.o
+ .text.ADC_DeInit
+                0x00000000       0x30 ..\obj\nano1xx_adc.o
+ .text.ADC_EnableInt
+                0x00000000       0x20 ..\obj\nano1xx_adc.o
+ .text.ADC_DisableInt
+                0x00000000       0x28 ..\obj\nano1xx_adc.o
+ .text.ADC_EnableComp0Int
+                0x00000000       0x20 ..\obj\nano1xx_adc.o
+ .text.ADC_DisableComp0Int
+                0x00000000       0x28 ..\obj\nano1xx_adc.o
+ .text.ADC_EnableComp1Int
+                0x00000000       0x20 ..\obj\nano1xx_adc.o
+ .text.ADC_DisableComp1Int
+                0x00000000       0x28 ..\obj\nano1xx_adc.o
+ .text.ADC_EnableExtTrigger
+                0x00000000       0x18 ..\obj\nano1xx_adc.o
+ .text.ADC_GetConversionData
+                0x00000000       0x14 ..\obj\nano1xx_adc.o
+ .text.ADC_IsDataValid
+                0x00000000       0x14 ..\obj\nano1xx_adc.o
+ .text.ADC_IsDataOverrun
+                0x00000000       0x14 ..\obj\nano1xx_adc.o
+ .text.ADC_EnableComp0
+                0x00000000       0x20 ..\obj\nano1xx_adc.o
+ .text.ADC_EnableComp1
+                0x00000000       0x20 ..\obj\nano1xx_adc.o
+ .text.ADC_EnableTimerTrigger
+                0x00000000       0x24 ..\obj\nano1xx_adc.o
+ .text.ADC_ConfigCal
+                0x00000000       0x1c ..\obj\nano1xx_adc.o
+ .text.ADC_SetPDMode
+                0x00000000       0x18 ..\obj\nano1xx_adc.o
+ .text.ADC_SetSampleTime
+                0x00000000       0x48 ..\obj\nano1xx_adc.o
+ .text          0x00000000        0x0 ..\obj\sys_ui.o
+ .data          0x00000000        0x0 ..\obj\sys_ui.o
+ .text          0x00000000        0x0 ..\obj\sensor_alt_BMP180.o
+ .data          0x00000000        0x0 ..\obj\sensor_alt_BMP180.o
+ .text.ALT_BMP180_Stop
+                0x00000000       0x30 ..\obj\sensor_alt_BMP180.o
+ .text.ALT_BMP180_Set
+                0x00000000        0x4 ..\obj\sensor_alt_BMP180.o
+ .text          0x00000000        0x0 ..\obj\syscalls.o
+ .data          0x00000000        0x0 ..\obj\syscalls.o
+ .bss           0x00000000        0x4 ..\obj\syscalls.o
+ .text._sbrk    0x00000000       0x20 ..\obj\syscalls.o
+ .text.link     0x00000000        0x6 ..\obj\syscalls.o
+ .text._close   0x00000000        0x6 ..\obj\syscalls.o
+ .text._fstat   0x00000000        0xa ..\obj\syscalls.o
+ .text._isatty  0x00000000        0x4 ..\obj\syscalls.o
+ .text._lseek   0x00000000        0x4 ..\obj\syscalls.o
+ .text._read    0x00000000        0x4 ..\obj\syscalls.o
+ .text._write   0x00000000        0x4 ..\obj\syscalls.o
+ .text.abort    0x00000000        0x2 ..\obj\syscalls.o
+ .debug_info    0x00000000      0x3ed ..\obj\syscalls.o
+ .debug_abbrev  0x00000000       0xf1 ..\obj\syscalls.o
+ .debug_loc     0x00000000      0x113 ..\obj\syscalls.o
+ .debug_aranges
+                0x00000000       0x60 ..\obj\syscalls.o
+ .debug_ranges  0x00000000       0x50 ..\obj\syscalls.o
+ .debug_line    0x00000000      0x146 ..\obj\syscalls.o
+ .debug_str     0x00000000      0x2c0 ..\obj\syscalls.o
+ .comment       0x00000000       0x71 ..\obj\syscalls.o
+ .debug_frame   0x00000000       0xa0 ..\obj\syscalls.o
+ .ARM.attributes
+                0x00000000       0x31 ..\obj\syscalls.o
+ .text          0x00000000        0x0 ..\obj\drv_adc.o
+ .data          0x00000000        0x0 ..\obj\drv_adc.o
+ .bss           0x00000000        0x0 ..\obj\drv_adc.o
+ .text.DRV_ADC_Start
+                0x00000000        0x4 ..\obj\drv_adc.o
+ .text.DRV_ADC_Stop
+                0x00000000        0x4 ..\obj\drv_adc.o
+ .text.DRV_ADC_Set
+                0x00000000        0x4 ..\obj\drv_adc.o
+ .text          0x00000000        0x0 ..\obj\nano1xx_fmc.o
+ .data          0x00000000        0x0 ..\obj\nano1xx_fmc.o
+ .bss           0x00000000        0x0 ..\obj\nano1xx_fmc.o
+ .text.FMC_Write
+                0x00000000       0x2c ..\obj\nano1xx_fmc.o
+ .text.FMC_Read
+                0x00000000       0x30 ..\obj\nano1xx_fmc.o
+ .text.FMC_Erase
+                0x00000000       0x2c ..\obj\nano1xx_fmc.o
+ .text.FMC_SetVectorPage
+                0x00000000       0x3c ..\obj\nano1xx_fmc.o
+ .text.FMC_ReadCID
+                0x00000000       0x34 ..\obj\nano1xx_fmc.o
+ .text.FMC_ReadDID
+                0x00000000       0x34 ..\obj\nano1xx_fmc.o
+ .text.FMC_ReadPID
+                0x00000000       0x34 ..\obj\nano1xx_fmc.o
+ .text.FMC_ReadUID
+                0x00000000       0x38 ..\obj\nano1xx_fmc.o
+ .text.FMC_WriteConfig
+                0x00000000       0x34 ..\obj\nano1xx_fmc.o
+ .debug_info    0x00000000      0x33c ..\obj\nano1xx_fmc.o
+ .debug_abbrev  0x00000000      0x101 ..\obj\nano1xx_fmc.o
+ .debug_loc     0x00000000      0x1fe ..\obj\nano1xx_fmc.o
+ .debug_aranges
+                0x00000000       0x60 ..\obj\nano1xx_fmc.o
+ .debug_ranges  0x00000000       0x50 ..\obj\nano1xx_fmc.o
+ .debug_line    0x00000000      0x220 ..\obj\nano1xx_fmc.o
+ .debug_str     0x00000000      0x27b ..\obj\nano1xx_fmc.o
+ .comment       0x00000000       0x71 ..\obj\nano1xx_fmc.o
+ .debug_frame   0x00000000       0xac ..\obj\nano1xx_fmc.o
+ .ARM.attributes
+                0x00000000       0x31 ..\obj\nano1xx_fmc.o
+ .text          0x00000000        0x0 ..\obj\drv_uart.o
+ .bss           0x00000000        0x0 ..\obj\drv_uart.o
+ .text.DRV_UART_Start
+                0x00000000       0x14 ..\obj\drv_uart.o
+ .text.DRV_UART_Handler
+                0x00000000        0x2 ..\obj\drv_uart.o
+ .text.DRV_UART_Recv
+                0x00000000       0x18 ..\obj\drv_uart.o
+ .text.DRV_UART_Stop
+                0x00000000       0x14 ..\obj\drv_uart.o
+ .text          0x00000000        0x0 ..\obj\startup_NANO1xx.o
+ .data          0x00000000        0x0 ..\obj\startup_NANO1xx.o
+ .bss           0x00000000        0x0 ..\obj\startup_NANO1xx.o
+ .text          0x00000000        0x0 ..\obj\drv_flash_SST25VF032B.o
+ .data          0x00000000        0x0 ..\obj\drv_flash_SST25VF032B.o
+ .text.DRV_FLASH_SST25VF032B_Handler
+                0x00000000        0x4 ..\obj\drv_flash_SST25VF032B.o
+ .text.DRV_FLASH_SST25VF032B_Stop
+                0x00000000       0x18 ..\obj\drv_flash_SST25VF032B.o
+ .text.DRV_FLASH_SST25VF032B_ReadBytes
+                0x00000000       0xe4 ..\obj\drv_flash_SST25VF032B.o
+ .text.DRV_FLASH_SST25VF032B_ChipErase
+                0x00000000       0x64 ..\obj\drv_flash_SST25VF032B.o
+ .text.DRV_FLASH_SST25VF032B_32KkErase
+                0x00000000       0x7c ..\obj\drv_flash_SST25VF032B.o
+ .text.DRV_FLASH_SST25VF032B_64KkErase
+                0x00000000       0x7c ..\obj\drv_flash_SST25VF032B.o
+ .text          0x00000000        0x0 ..\obj\nano1xx_spi.o
+ .data          0x00000000        0x0 ..\obj\nano1xx_spi.o
+ .bss           0x00000000        0x0 ..\obj\nano1xx_spi.o
+ .text.SPI_SetSuspendCycle
+                0x00000000       0x20 ..\obj\nano1xx_spi.o
+ .text.SPI_EnableInt
+                0x00000000       0x44 ..\obj\nano1xx_spi.o
+ .text.SPI_SingleRead
+                0x00000000       0x1c ..\obj\nano1xx_spi.o
+ .text.SPI_SingleWrite
+                0x00000000       0x1c ..\obj\nano1xx_spi.o
+ .text.SPI_SetTxPDMA
+                0x00000000       0x12 ..\obj\nano1xx_spi.o
+ .text.SPI_SetRxPDMA
+                0x00000000       0x12 ..\obj\nano1xx_spi.o
+ .text.SPI_Enable3WireStartInt
+                0x00000000       0x7c ..\obj\nano1xx_spi.o
+ .text.SPI_Disable3WireStartInt
+                0x00000000       0x44 ..\obj\nano1xx_spi.o
+ .text.SPI_WakeupConfigure
+                0x00000000       0x16 ..\obj\nano1xx_spi.o
+ .text.SPI_SetFIFOMode
+                0x00000000       0x30 ..\obj\nano1xx_spi.o
+ .text.SPI_FIFOWrite8
+                0x00000000       0x2a ..\obj\nano1xx_spi.o
+ .text.SPI_FIFOWrite16
+                0x00000000       0x2c ..\obj\nano1xx_spi.o
+ .text.SPI_FIFOWrite32
+                0x00000000       0x2c ..\obj\nano1xx_spi.o
+ .text.SPI_FIFORead8
+                0x00000000       0x2a ..\obj\nano1xx_spi.o
+ .text.SPI_FIFORead16
+                0x00000000       0x2c ..\obj\nano1xx_spi.o
+ .text.SPI_FIFORead32
+                0x00000000       0x2c ..\obj\nano1xx_spi.o
+ .text.SPI_FIFOReadWrite8
+                0x00000000       0x6c ..\obj\nano1xx_spi.o
+ .text.SPI_FIFOReadWrite16
+                0x00000000       0x72 ..\obj\nano1xx_spi.o
+ .text.SPI_FIFOReadWrite32
+                0x00000000       0x72 ..\obj\nano1xx_spi.o
+ .text          0x00000000        0x0 ..\obj\nano1xx_i2c.o
+ .data          0x00000000        0x0 ..\obj\nano1xx_i2c.o
+ .bss           0x00000000        0x0 ..\obj\nano1xx_i2c.o
+ .text.I2C_Close
+                0x00000000        0xa ..\obj\nano1xx_i2c.o
+ .text.I2C_GetClockFreq
+                0x00000000       0x12 ..\obj\nano1xx_i2c.o
+ .text.I2C_DisableInt
+                0x00000000       0x30 ..\obj\nano1xx_i2c.o
+ .text.I2C_SetAddress
+                0x00000000       0x20 ..\obj\nano1xx_i2c.o
+ .text.I2C_SetAddressMask
+                0x00000000       0x1c ..\obj\nano1xx_i2c.o
+ .text.I2C_DeInit
+                0x00000000       0x28 ..\obj\nano1xx_i2c.o
+ .text          0x00000000        0x0 ..\obj\sensor_spo2.o
+ .data          0x00000000        0x0 ..\obj\sensor_spo2.o
+ .bss           0x00000000        0x0 ..\obj\sensor_spo2.o
+ .text.SPO2_Set
+                0x00000000        0x4 ..\obj\sensor_spo2.o
+ .text.SPO2_Get
+                0x00000000        0x4 ..\obj\sensor_spo2.o
+ .text.SPO2_Stop
+                0x00000000       0x14 ..\obj\sensor_spo2.o
+ .text          0x00000000        0x0 ..\obj\algo_spo2hr.o
+ .text.spo2HRDect_close
+                0x00000000        0x4 ..\obj\algo_spo2hr.o
+ .text          0x00000000        0x0 ..\obj\nano1xx_rtc.o
+ .data          0x00000000        0x0 ..\obj\nano1xx_rtc.o
+ .text.RTC_SetFrequencyCompensation
+                0x00000000       0x40 ..\obj\nano1xx_rtc.o
+ .text.RTC_ReadAlarm
+                0x00000000      0x108 ..\obj\nano1xx_rtc.o
+ .text.RTC_Write
+                0x00000000      0x11c ..\obj\nano1xx_rtc.o
+ .text.RTC_SpareRegsAccess
+                0x00000000      0x1a0 ..\obj\nano1xx_rtc.o
+ .text.RTC_EnableSpareFunc
+                0x00000000       0x38 ..\obj\nano1xx_rtc.o
+ .text.RTC_DisableSpareFunc
+                0x00000000       0x1c ..\obj\nano1xx_rtc.o
+ .text.RTC_WriteAlarm
+                0x00000000      0x154 ..\obj\nano1xx_rtc.o
+ .text.RTC_DisableInt
+                0x00000000       0x44 ..\obj\nano1xx_rtc.o
+ .text.RTC_Close
+                0x00000000       0x18 ..\obj\nano1xx_rtc.o
+ .text.RTC_IsLeapYear
+                0x00000000       0x10 ..\obj\nano1xx_rtc.o
+ .text          0x00000000        0x0 ..\obj\nano1xx_uart.o
+ .data          0x00000000        0x0 ..\obj\nano1xx_uart.o
+ .bss           0x00000000        0x0 ..\obj\nano1xx_uart.o
+ .text.UART_SetRTS
+                0x00000000       0x30 ..\obj\nano1xx_uart.o
+ .text.UART_DeInit
+                0x00000000       0x44 ..\obj\nano1xx_uart.o
+ .text.UART_EnableInt
+                0x00000000       0x20 ..\obj\nano1xx_uart.o
+ .text.UART_DisableInt
+                0x00000000       0x24 ..\obj\nano1xx_uart.o
+ .text.UART_ClearIntFlag
+                0x00000000       0x64 ..\obj\nano1xx_uart.o
+ .text.UART_GetIntStatus
+                0x00000000       0x6a ..\obj\nano1xx_uart.o
+ .text.DrvUART_GetCTSInfo
+                0x00000000       0x16 ..\obj\nano1xx_uart.o
+ .text.UART_SetFnIRDA
+                0x00000000       0x3a ..\obj\nano1xx_uart.o
+ .text.UART_SetFnLIN
+                0x00000000       0x30 ..\obj\nano1xx_uart.o
+ .text.UART_SetFnRS485
+                0x00000000       0x4c ..\obj\nano1xx_uart.o
+ .text          0x00000000        0x0 ..\obj\drv_gpio.o
+ .data          0x00000000        0x0 ..\obj\drv_gpio.o
+ .bss           0x00000000        0x0 ..\obj\drv_gpio.o
+ .text.DRV_GPIO_Start
+                0x00000000        0x4 ..\obj\drv_gpio.o
+ .text.DRV_GPIO_Set
+                0x00000000        0x4 ..\obj\drv_gpio.o
+ .text.DRV_GPIO_Get
+                0x00000000        0x4 ..\obj\drv_gpio.o
+ .text.DRV_GPIO_Stop
+                0x00000000        0x4 ..\obj\drv_gpio.o
+ .text          0x00000000        0x0 ..\obj\nano1xx_pwm.o
+ .data          0x00000000        0x0 ..\obj\nano1xx_pwm.o
+ .bss           0x00000000        0x1 ..\obj\nano1xx_pwm.o
+ .text.PWM_SetCounter
+                0x00000000       0x24 ..\obj\nano1xx_pwm.o
+ .text.PWM_EnableInt
+                0x00000000       0x38 ..\obj\nano1xx_pwm.o
+ .text.PWM_DisableInt
+                0x00000000       0x2c ..\obj\nano1xx_pwm.o
+ .text.PWM_EnableCaptureInt
+                0x00000000       0x48 ..\obj\nano1xx_pwm.o
+ .text.PWM_DisableCaptureInt
+                0x00000000       0x2c ..\obj\nano1xx_pwm.o
+ .text.PWM_ClearInt
+                0x00000000       0x20 ..\obj\nano1xx_pwm.o
+ .text.PWM_ClearCaptureInt
+                0x00000000       0x2c ..\obj\nano1xx_pwm.o
+ .text.PWM_GetIntFlag
+                0x00000000       0x24 ..\obj\nano1xx_pwm.o
+ .text.PWM_GetCaptureIntFlag
+                0x00000000       0x20 ..\obj\nano1xx_pwm.o
+ .text.PWM_GetRisingCounter
+                0x00000000       0x20 ..\obj\nano1xx_pwm.o
+ .text.PWM_GetFallingCounter
+                0x00000000       0x20 ..\obj\nano1xx_pwm.o
+ .text.PWM_Init
+                0x00000000       0x3c ..\obj\nano1xx_pwm.o
+ .text.PWM_DeInit
+                0x00000000       0xb0 ..\obj\nano1xx_pwm.o
+ .text.PWM_EnableDeadZone
+                0x00000000       0x64 ..\obj\nano1xx_pwm.o
+ .text.PWM_DisableDeadZone
+                0x00000000       0x38 ..\obj\nano1xx_pwm.o
+ .text.PWM_Enable
+                0x00000000       0x28 ..\obj\nano1xx_pwm.o
+ .text.PWM_CaptureEnable
+                0x00000000       0x30 ..\obj\nano1xx_pwm.o
+ .text.PWM_Disable
+                0x00000000       0x28 ..\obj\nano1xx_pwm.o
+ .text.PWM_CaptureDisable
+                0x00000000       0x30 ..\obj\nano1xx_pwm.o
+ .text.PWM_SetClk
+                0x00000000       0x70 ..\obj\nano1xx_pwm.o
+ .text.PWM_ConfigOutput
+                0x00000000       0x30 ..\obj\nano1xx_pwm.o
+ .text.PWM_ConfigCaptureIntput
+                0x00000000       0x34 ..\obj\nano1xx_pwm.o
+ .text.PWM_ConfigCascade
+                0x00000000       0x34 ..\obj\nano1xx_pwm.o
+ .text.PWM_EnablePdma
+                0x00000000       0x40 ..\obj\nano1xx_pwm.o
+ .text.PWM_DisablePdma
+                0x00000000       0x28 ..\obj\nano1xx_pwm.o
+ .text.PWM_SetCaptureAttribute
+                0x00000000       0x54 ..\obj\nano1xx_pwm.o
+ .debug_info    0x00000000      0xc67 ..\obj\nano1xx_pwm.o
+ .debug_abbrev  0x00000000      0x263 ..\obj\nano1xx_pwm.o
+ .debug_loc     0x00000000      0x823 ..\obj\nano1xx_pwm.o
+ .debug_aranges
+                0x00000000       0xe8 ..\obj\nano1xx_pwm.o
+ .debug_ranges  0x00000000       0xd8 ..\obj\nano1xx_pwm.o
+ .debug_line    0x00000000      0x581 ..\obj\nano1xx_pwm.o
+ .debug_str     0x00000000      0x6bb ..\obj\nano1xx_pwm.o
+ .comment       0x00000000       0x71 ..\obj\nano1xx_pwm.o
+ .debug_frame   0x00000000      0x1f0 ..\obj\nano1xx_pwm.o
+ .ARM.attributes
+                0x00000000       0x31 ..\obj\nano1xx_pwm.o
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_sqrt.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_sqrt.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_sqrt.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_lib_ver.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_lib_ver.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_lib_ver.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_rint.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_rint.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_rint.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fabs.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fabs.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fabs.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_finite.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_finite.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_finite.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fpclassify.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fpclassify.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fpclassify.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_nan.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_nan.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_nan.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_scalbn.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_scalbn.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_scalbn.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_copysign.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_copysign.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_copysign.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uhi.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uhi.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpsf2.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpsf2.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(addsf3.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(addsf3.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divsf3.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divsf3.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqsf2.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqsf2.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gesf2.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gesf2.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(lesf2.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(lesf2.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subsf3.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subsf3.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsisf.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsisf.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsidf.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsidf.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(extendsfdf2.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(extendsfdf2.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(truncdfsf2.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(truncdfsf2.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcpy.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcpy.o)
+ .text          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00020000         xr
+ram              0x20000000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20004000                _eram = 0x20004000
+
+.text           0x00000000     0x9af0
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ..\obj\startup_NANO1xx.o
+                0x00000000                g_pfnVectors
+ *(.text*)
+ .text.sys_delay
+                0x000000c0       0x16 ..\obj\sys_util.o
+                0x000000c0                sys_delay
+ *fill*         0x000000d6        0x2 
+ .text.hex_to_dec
+                0x000000d8       0x18 ..\obj\sys_util.o
+                0x000000d8                hex_to_dec
+ .text.DRV_BT_SBC2112_Init
+                0x000000f0      0x650 ..\obj\drv_bt_SBC2112.o
+                0x000000f0                DRV_BT_SBC2112_Init
+ .text.DRV_BT_SBC2112_Stop
+                0x00000740      0x1d8 ..\obj\drv_bt_SBC2112.o
+                0x00000740                DRV_BT_SBC2112_Stop
+ .text.BT_UART_Read
+                0x00000918       0x4c ..\obj\drv_bt_SBC2112.o
+                0x00000918                BT_UART_Read
+ .text.DRV_BT_SBC2112_Wait_Connect
+                0x00000964       0xec ..\obj\drv_bt_SBC2112.o
+                0x00000964                DRV_BT_SBC2112_Wait_Connect
+ .text.BT_UART_Write
+                0x00000a50       0x28 ..\obj\drv_bt_SBC2112.o
+                0x00000a50                BT_UART_Write
+ .text.DRV_SPI_Send
+                0x00000a78       0x22 ..\obj\drv_spi.o
+                0x00000a78                DRV_SPI_Send
+ .text.DRV_SPI_Recv
+                0x00000a9a       0x16 ..\obj\drv_spi.o
+                0x00000a9a                DRV_SPI_Recv
+ .text.DRV_SPI_Stop
+                0x00000ab0       0x54 ..\obj\drv_spi.o
+                0x00000ab0                DRV_SPI_Stop
+ .text.DRV_SPI_Init
+                0x00000b04       0xcc ..\obj\drv_spi.o
+                0x00000b04                DRV_SPI_Init
+ .text.SPI0_IRQHandler
+                0x00000bd0       0x20 ..\obj\drv_spi.o
+                0x00000bd0                SPI0_IRQHandler
+ .text.SPI1_IRQHandler
+                0x00000bf0       0x20 ..\obj\drv_spi.o
+                0x00000bf0                SPI1_IRQHandler
+ .text.DRV_I2C_Init
+                0x00000c10       0x98 ..\obj\drv_i2c.o
+                0x00000c10                DRV_I2C_Init
+ .text.DRV_I2C_Start
+                0x00000ca8       0x44 ..\obj\drv_i2c.o
+                0x00000ca8                DRV_I2C_Start
+ .text.DRV_I2C_Send
+                0x00000cec       0x3c ..\obj\drv_i2c.o
+                0x00000cec                DRV_I2C_Send
+ .text.DRV_I2C_Recv
+                0x00000d28       0x3c ..\obj\drv_i2c.o
+                0x00000d28                DRV_I2C_Recv
+ .text.DRV_I2C_ReadRegByte
+                0x00000d64       0x14 ..\obj\drv_i2c.o
+                0x00000d64                DRV_I2C_ReadRegByte
+ .text.DRV_I2C_WriteRegByte
+                0x00000d78       0x14 ..\obj\drv_i2c.o
+                0x00000d78                DRV_I2C_WriteRegByte
+ .text.I2C0_IRQHandler
+                0x00000d8c      0x130 ..\obj\drv_i2c.o
+                0x00000d8c                I2C0_IRQHandler
+ .text.I2C1_IRQHandler
+                0x00000ebc      0x130 ..\obj\drv_i2c.o
+                0x00000ebc                I2C1_IRQHandler
+ .text.SYS_GetPLLClockFreq
+                0x00000fec       0x4c ..\obj\nano1xx_sys.o
+                0x00000fec                SYS_GetPLLClockFreq
+ .text.SYS_GetHCLKFreq
+                0x00001038       0x48 ..\obj\nano1xx_sys.o
+                0x00001038                SYS_GetHCLKFreq
+ .text.DRV_DISPLAY_SSD1306_Init
+                0x00001080       0x58 ..\obj\drv_display_SSD1306.o
+                0x00001080                DRV_DISPLAY_SSD1306_Init
+ .text.DRV_DISPLAY_SSD1306_Start
+                0x000010d8      0x1cc ..\obj\drv_display_SSD1306.o
+                0x000010d8                DRV_DISPLAY_SSD1306_Start
+ .text.DRV_DISPLAY_SSD1306_On
+                0x000012a4       0x68 ..\obj\drv_display_SSD1306.o
+                0x000012a4                DRV_DISPLAY_SSD1306_On
+ .text.DRV_DISPLAY_SSD1306_Off
+                0x0000130c       0x68 ..\obj\drv_display_SSD1306.o
+                0x0000130c                DRV_DISPLAY_SSD1306_Off
+ .text.DRV_DISPLAY_SSD1306_Clear
+                0x00001374       0xcc ..\obj\drv_display_SSD1306.o
+                0x00001374                DRV_DISPLAY_SSD1306_Clear
+ .text.DRV_DISPLAY_SSD1306_Write
+                0x00001440       0xfc ..\obj\drv_display_SSD1306.o
+                0x00001440                DRV_DISPLAY_SSD1306_Write
+ .text.DRV_RTC_Init
+                0x0000153c       0x78 ..\obj\drv_rtc.o
+                0x0000153c                DRV_RTC_Init
+ .text.DRV_RTC_Start
+                0x000015b4       0x12 ..\obj\drv_rtc.o
+                0x000015b4                DRV_RTC_Start
+ *fill*         0x000015c6        0x2 
+ .text.DRV_RTC_Handler
+                0x000015c8       0x80 ..\obj\drv_rtc.o
+                0x000015c8                DRV_RTC_Handler
+ .text.RTC_IRQHandler
+                0x00001648       0x20 ..\obj\drv_rtc.o
+                0x00001648                RTC_IRQHandler
+ .text.GPIO_EnableEINT0
+                0x00001668       0x20 ..\obj\nano1xx_gpio.o
+                0x00001668                GPIO_EnableEINT0
+ .text.GPIO_EnableEINT1
+                0x00001688       0x20 ..\obj\nano1xx_gpio.o
+                0x00001688                GPIO_EnableEINT1
+ .text.TIMER_Init
+                0x000016a8       0x50 ..\obj\nano1xx_timer.o
+                0x000016a8                TIMER_Init
+ .text.TIMER_DeInit
+                0x000016f8       0x74 ..\obj\nano1xx_timer.o
+                0x000016f8                TIMER_DeInit
+ .text.TIMER_EnableInt
+                0x0000176c       0x48 ..\obj\nano1xx_timer.o
+                0x0000176c                TIMER_EnableInt
+ .text.TIMER_DisableInt
+                0x000017b4       0x4c ..\obj\nano1xx_timer.o
+                0x000017b4                TIMER_DisableInt
+ .text.shell_open
+                0x00001800        0xe ..\obj\sys_shell.o
+                0x00001800                shell_open
+ *fill*         0x0000180e        0x2 
+ .text.DRV_TIMER_Init
+                0x00001810       0x5c ..\obj\drv_timer.o
+                0x00001810                DRV_TIMER_Init
+ .text.DRV_TIMER_Start
+                0x0000186c       0xa4 ..\obj\drv_timer.o
+                0x0000186c                DRV_TIMER_Start
+ .text.DRV_TIMER_Stop
+                0x00001910       0x54 ..\obj\drv_timer.o
+                0x00001910                DRV_TIMER_Stop
+ .text.DRV_TIMER0_Handler
+                0x00001964      0x258 ..\obj\drv_timer.o
+                0x00001964                DRV_TIMER0_Handler
+ .text.DRV_TIMER1_Handler
+                0x00001bbc       0x78 ..\obj\drv_timer.o
+                0x00001bbc                DRV_TIMER1_Handler
+ .text.DRV_TIMER3_Handler
+                0x00001c34       0xa4 ..\obj\drv_timer.o
+                0x00001c34                DRV_TIMER3_Handler
+ .text.TMR0_IRQHandler
+                0x00001cd8       0x14 ..\obj\drv_timer.o
+                0x00001cd8                TMR0_IRQHandler
+ .text.TMR1_IRQHandler
+                0x00001cec       0x14 ..\obj\drv_timer.o
+                0x00001cec                TMR1_IRQHandler
+ .text.TMR2_IRQHandler
+                0x00001d00        0xc ..\obj\drv_timer.o
+                0x00001d00                TMR2_IRQHandler
+ .text.TMR3_IRQHandler
+                0x00001d0c       0x14 ..\obj\drv_timer.o
+                0x00001d0c                TMR3_IRQHandler
+ .text.MCU_Initial
+                0x00001d20        0x8 ..\obj\sys_init.o
+                0x00001d20                MCU_Initial
+ .text.MCU_Boot
+                0x00001d28        0x2 ..\obj\sys_init.o
+                0x00001d28                MCU_Boot
+ *fill*         0x00001d2a        0x2 
+ .text.DRV_INT_Init
+                0x00001d2c       0x4c ..\obj\drv_int.o
+                0x00001d2c                DRV_INT_Init
+ .text.DRV_INT_Start
+                0x00001d78       0x58 ..\obj\drv_int.o
+                0x00001d78                DRV_INT_Start
+ .text.DRV_INT_Handler
+                0x00001dd0      0x1ec ..\obj\drv_int.o
+                0x00001dd0                DRV_INT_Handler
+ .text.EINT0_IRQHandler
+                0x00001fbc       0x34 ..\obj\drv_int.o
+                0x00001fbc                EINT0_IRQHandler
+ .text.EINT1_IRQHandler
+                0x00001ff0       0x34 ..\obj\drv_int.o
+                0x00001ff0                EINT1_IRQHandler
+ .text.ACC_LSM303DLHC_Init
+                0x00002024       0x20 ..\obj\sensor_acc_LSM303DLHC.o
+                0x00002024                ACC_LSM303DLHC_Init
+ .text.ACC_LSM303DLHC_Start
+                0x00002044       0x30 ..\obj\sensor_acc_LSM303DLHC.o
+                0x00002044                ACC_LSM303DLHC_Start
+ .text.ACC_LSM303DLHC_Get
+                0x00002074       0x74 ..\obj\sensor_acc_LSM303DLHC.o
+                0x00002074                ACC_LSM303DLHC_Get
+ .text.startup.main
+                0x000020e8      0x17c ..\obj\main.o
+                0x000020e8                main
+ .text.pedoDect_R4_open
+                0x00002264       0x6c ..\obj\algo_pedo_r4.o
+                0x00002264                pedoDect_R4_open
+ .text.pedoDect_R4_process
+                0x000022d0      0x178 ..\obj\algo_pedo_r4.o
+                0x000022d0                pedoDect_R4_process
+ .text.pedoDect_R4_detection
+                0x00002448      0x160 ..\obj\algo_pedo_r4.o
+                0x00002448                pedoDect_R4_detection
+ .text.SysInit_DebugConsole
+                0x000025a8       0x44 ..\obj\system_NANO1xx.o
+                0x000025a8                SysInit_DebugConsole
+ .text.SysGet_PLLClockFreq
+                0x000025ec       0x4c ..\obj\system_NANO1xx.o
+                0x000025ec                SysGet_PLLClockFreq
+ .text.SysGet_HCLKFreq
+                0x00002638       0x48 ..\obj\system_NANO1xx.o
+                0x00002638                SysGet_HCLKFreq
+ .text.SystemCoreClockUpdate
+                0x00002680       0x10 ..\obj\system_NANO1xx.o
+                0x00002680                SystemCoreClockUpdate
+ .text.SysInit_Clock
+                0x00002690       0x44 ..\obj\system_NANO1xx.o
+                0x00002690                SysInit_Clock
+ .text.SystemInit
+                0x000026d4        0xc ..\obj\system_NANO1xx.o
+                0x000026d4                SystemInit
+ .text.sys_sensors_init
+                0x000026e0      0x20c ..\obj\sys_info.o
+                0x000026e0                sys_sensors_init
+ .text.sys_storage_init
+                0x000028ec       0x58 ..\obj\sys_info.o
+                0x000028ec                sys_storage_init
+ .text.sys_sensorhub_init
+                0x00002944       0xfc ..\obj\sys_info.o
+                0x00002944                sys_sensorhub_init
+ .text.sys_data_write
+                0x00002a40       0x78 ..\obj\sys_info.o
+                0x00002a40                sys_data_write
+ .text.PutString
+                0x00002ab8       0x12 ..\obj\printf.o
+                0x00002ab8                PutString
+ .text.PutUnsignedInt
+                0x00002aca       0x4c ..\obj\printf.o
+                0x00002aca                PutUnsignedInt
+ .text.PutSignedInt
+                0x00002b16       0x72 ..\obj\printf.o
+                0x00002b16                PutSignedInt
+ .text.PutHexa  0x00002b88       0x48 ..\obj\printf.o
+                0x00002b88                PutHexa
+ .text.vsnprintf
+                0x00002bd0      0x110 ..\obj\printf.o
+                0x00002bd0                vsnprintf
+ .text.vsprintf
+                0x00002ce0       0x10 ..\obj\printf.o
+                0x00002ce0                vsprintf
+ .text.sprintf  0x00002cf0       0x16 ..\obj\printf.o
+                0x00002cf0                sprintf
+ *fill*         0x00002d06        0x2 
+ .text.ADC_Init
+                0x00002d08       0x28 ..\obj\nano1xx_adc.o
+                0x00002d08                ADC_Init
+ .text.ADC_SetResolution
+                0x00002d30       0x18 ..\obj\nano1xx_adc.o
+                0x00002d30                ADC_SetResolution
+ .text.sys_ui_drawBattery
+                0x00002d48       0x42 ..\obj\sys_ui.o
+ *fill*         0x00002d8a        0x2 
+ .text.sys_ui_drawCapacity
+                0x00002d8c       0x58 ..\obj\sys_ui.o
+ .text.sys_ui_drawChar.constprop.1
+                0x00002de4      0xb24 ..\obj\sys_ui.o
+ .text.sys_ui_logo
+                0x00003908       0x40 ..\obj\sys_ui.o
+                0x00003908                sys_ui_logo
+ .text.sys_ui_time
+                0x00003948       0x18 ..\obj\sys_ui.o
+                0x00003948                sys_ui_time
+ .text.sys_ui_date
+                0x00003960       0x18 ..\obj\sys_ui.o
+                0x00003960                sys_ui_date
+ .text.sys_ui_pedo
+                0x00003978       0x44 ..\obj\sys_ui.o
+                0x00003978                sys_ui_pedo
+ .text.sys_ui_temp
+                0x000039bc       0x44 ..\obj\sys_ui.o
+                0x000039bc                sys_ui_temp
+ .text.sys_ui_hr
+                0x00003a00       0x44 ..\obj\sys_ui.o
+                0x00003a00                sys_ui_hr
+ .text.sys_ui_alt
+                0x00003a44       0x44 ..\obj\sys_ui.o
+                0x00003a44                sys_ui_alt
+ .text.sys_ui_bleconn
+                0x00003a88       0xdc ..\obj\sys_ui.o
+                0x00003a88                sys_ui_bleconn
+ .text.sys_ui_update
+                0x00003b64      0x1b8 ..\obj\sys_ui.o
+                0x00003b64                sys_ui_update
+ .text.sys_ui_clear
+                0x00003d1c        0xa ..\obj\sys_ui.o
+                0x00003d1c                sys_ui_clear
+ *fill*         0x00003d26        0x2 
+ .text.ALT_BMP180_Init
+                0x00003d28       0xbc ..\obj\sensor_alt_BMP180.o
+                0x00003d28                ALT_BMP180_Init
+ .text.ALT_BMP180_Start
+                0x00003de4       0x18 ..\obj\sensor_alt_BMP180.o
+                0x00003de4                ALT_BMP180_Start
+ .text.ALT_BMP180_Reset
+                0x00003dfc       0xbc ..\obj\sensor_alt_BMP180.o
+                0x00003dfc                ALT_BMP180_Reset
+ .text.ALT_BMP180_Get
+                0x00003eb8      0x240 ..\obj\sensor_alt_BMP180.o
+                0x00003eb8                ALT_BMP180_Get
+ .text.DRV_ADC_Init
+                0x000040f8       0x30 ..\obj\drv_adc.o
+                0x000040f8                DRV_ADC_Init
+ .text.DRV_ADC_Get
+                0x00004128       0x80 ..\obj\drv_adc.o
+                0x00004128                DRV_ADC_Get
+ .text.DRV_UART_Init
+                0x000041a8       0x7c ..\obj\drv_uart.o
+                0x000041a8                DRV_UART_Init
+ .text.DRV_UART_Send
+                0x00004224       0x18 ..\obj\drv_uart.o
+                0x00004224                DRV_UART_Send
+ .text.UART0_IRQHandler
+                0x0000423c        0x2 ..\obj\drv_uart.o
+                0x0000423c                UART0_IRQHandler
+ .text.UART1_IRQHandler
+                0x0000423e        0x2 ..\obj\drv_uart.o
+                0x0000423e                UART1_IRQHandler
+ .text.Default_Handler
+                0x00004240        0x2 ..\obj\startup_NANO1xx.o
+                0x00004240                DebugMon_Handler
+                0x00004240                HardFault_Handler
+                0x00004240                SC0_IRQHandler
+                0x00004240                SysTick_Handler
+                0x00004240                PWM1_IRQHandler
+                0x00004240                PendSV_Handler
+                0x00004240                NMI_Handler
+                0x00004240                USBD_IRQHandler
+                0x00004240                GPABC_IRQHandler
+                0x00004240                UsageFault_Handler
+                0x00004240                I2S_IRQHandler
+                0x00004240                LCD_IRQHandler
+                0x00004240                ADC_IRQHandler
+                0x00004240                GPDEF_IRQHandler
+                0x00004240                BOD_IRQHandler
+                0x00004240                PDWU_IRQHandler
+                0x00004240                SPI2_IRQHandler
+                0x00004240                MemManage_Handler
+                0x00004240                WDT_IRQHandler
+                0x00004240                SVC_Handler
+                0x00004240                HIRC_IRQHandler
+                0x00004240                PDMA_IRQHandler
+                0x00004240                SC1_IRQHandler
+                0x00004240                TK_IRQHandler
+                0x00004240                PWM0_IRQHandler
+                0x00004240                DAC_IRQHandler
+                0x00004240                BusFault_Handler
+ *fill*         0x00004242        0x2 
+ .text.Default_Reset_Handler
+                0x00004244       0x44 ..\obj\startup_NANO1xx.o
+                0x00004244                Default_Reset_Handler
+                0x00004244                Reset_Handler
+ .text.DRV_FLASH_SST25VF032B_Init
+                0x00004288      0x10c ..\obj\drv_flash_SST25VF032B.o
+                0x00004288                DRV_FLASH_SST25VF032B_Init
+ .text.DRV_FLASH_SST25VF032B_Start
+                0x00004394       0xb8 ..\obj\drv_flash_SST25VF032B.o
+                0x00004394                DRV_FLASH_SST25VF032B_Start
+ .text.DRV_FLASH_SST25VF032B_WriteBytes
+                0x0000444c      0x11c ..\obj\drv_flash_SST25VF032B.o
+                0x0000444c                DRV_FLASH_SST25VF032B_WriteBytes
+ .text.DRV_FLASH_SST25VF032B_4KErase
+                0x00004568       0x7c ..\obj\drv_flash_SST25VF032B.o
+                0x00004568                DRV_FLASH_SST25VF032B_4KErase
+ .text.DRV_FLASH_SST25VF032B_DisableProtection
+                0x000045e4       0xfc ..\obj\drv_flash_SST25VF032B.o
+                0x000045e4                DRV_FLASH_SST25VF032B_DisableProtection
+ .text.DRV_FLASH_SST25VF032B_EnableProtection
+                0x000046e0       0xfc ..\obj\drv_flash_SST25VF032B.o
+                0x000046e0                DRV_FLASH_SST25VF032B_EnableProtection
+ .text.SPI_Init
+                0x000047dc       0x44 ..\obj\nano1xx_spi.o
+                0x000047dc                SPI_Init
+ .text.SPI_DeInit
+                0x00004820       0x4c ..\obj\nano1xx_spi.o
+                0x00004820                SPI_DeInit
+ .text.SPI_Open
+                0x0000486c       0xc4 ..\obj\nano1xx_spi.o
+                0x0000486c                SPI_Open
+ .text.SPI_Close
+                0x00004930       0x38 ..\obj\nano1xx_spi.o
+                0x00004930                SPI_Close
+ .text.SPI_SetBitLength
+                0x00004968       0x1a ..\obj\nano1xx_spi.o
+                0x00004968                SPI_SetBitLength
+ *fill*         0x00004982        0x2 
+ .text.SPI_DisableInt
+                0x00004984       0x44 ..\obj\nano1xx_spi.o
+                0x00004984                SPI_DisableInt
+ .text.SPI_DumpRxRegister
+                0x000049c8       0x10 ..\obj\nano1xx_spi.o
+                0x000049c8                SPI_DumpRxRegister
+ .text.SPI_SetTxRegister
+                0x000049d8       0x10 ..\obj\nano1xx_spi.o
+                0x000049d8                SPI_SetTxRegister
+ .text.SPI_GetSourceClockFreq
+                0x000049e8       0x64 ..\obj\nano1xx_spi.o
+                0x000049e8                SPI_GetSourceClockFreq
+ .text.SPI_SetClockFreq
+                0x00004a4c       0xa0 ..\obj\nano1xx_spi.o
+                0x00004a4c                SPI_SetClockFreq
+ .text.SPI_GetClock1Freq
+                0x00004aec       0x18 ..\obj\nano1xx_spi.o
+                0x00004aec                SPI_GetClock1Freq
+ .text.SPI_GetClock2Freq
+                0x00004b04       0x18 ..\obj\nano1xx_spi.o
+                0x00004b04                SPI_GetClock2Freq
+ .text.I2C_Ctrl
+                0x00004b1c       0x24 ..\obj\nano1xx_i2c.o
+                0x00004b1c                I2C_Ctrl
+ .text.I2C_Open
+                0x00004b40       0x60 ..\obj\nano1xx_i2c.o
+                0x00004b40                I2C_Open
+ .text.I2C_EnableInt
+                0x00004ba0       0x30 ..\obj\nano1xx_i2c.o
+                0x00004ba0                I2C_EnableInt
+ .text.I2C_Init
+                0x00004bd0       0x24 ..\obj\nano1xx_i2c.o
+                0x00004bd0                I2C_Init
+ .text.SPO2_Init
+                0x00004bf4        0x4 ..\obj\sensor_spo2.o
+                0x00004bf4                SPO2_Init
+ .text.SPO2_Start
+                0x00004bf8       0x14 ..\obj\sensor_spo2.o
+                0x00004bf8                SPO2_Start
+ .text.spo2HRDect_open
+                0x00004c0c       0x38 ..\obj\algo_spo2hr.o
+                0x00004c0c                spo2HRDect_open
+ .text.spo2HRDect_process
+                0x00004c44       0x78 ..\obj\algo_spo2hr.o
+                0x00004c44                spo2HRDect_process
+ .text.spo2HRDect_detection
+                0x00004cbc      0x12c ..\obj\algo_spo2hr.o
+                0x00004cbc                spo2HRDect_detection
+ .text.RTC_WriteEnable
+                0x00004de8       0x1c ..\obj\nano1xx_rtc.o
+                0x00004de8                RTC_WriteEnable
+ .text.RTC_Init
+                0x00004e04       0x44 ..\obj\nano1xx_rtc.o
+                0x00004e04                RTC_Init
+ .text.RTC_Open
+                0x00004e48      0x14c ..\obj\nano1xx_rtc.o
+                0x00004e48                RTC_Open
+ .text.RTC_Read
+                0x00004f94      0x108 ..\obj\nano1xx_rtc.o
+                0x00004f94                RTC_Read
+ .text.RTC_SetTickMode
+                0x0000509c       0x2c ..\obj\nano1xx_rtc.o
+                0x0000509c                RTC_SetTickMode
+ .text.RTC_EnableInt
+                0x000050c8       0x1c ..\obj\nano1xx_rtc.o
+                0x000050c8                RTC_EnableInt
+ .text.UART_GetUartClk
+                0x000050e4       0x38 ..\obj\nano1xx_uart.o
+                0x000050e4                UART_GetUartClk
+ .text.UART_Init
+                0x0000511c       0xe8 ..\obj\nano1xx_uart.o
+                0x0000511c                UART_Init
+ .text.UART_Read
+                0x00005204       0x28 ..\obj\nano1xx_uart.o
+                0x00005204                UART_Read
+ .text.UART_Write
+                0x0000522c       0x28 ..\obj\nano1xx_uart.o
+                0x0000522c                UART_Write
+ .text.DRV_GPIO_Init
+                0x00005254       0xd8 ..\obj\drv_gpio.o
+                0x00005254                DRV_GPIO_Init
+ .text.powf     0x0000532c      0x350 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o)
+                0x0000532c                powf
+ .text.__ieee754_powf
+                0x0000567c      0x740 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o)
+                0x0000567c                __ieee754_powf
+ .text.__ieee754_sqrtf
+                0x00005dbc       0xb8 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_sqrt.o)
+                0x00005dbc                __ieee754_sqrtf
+ .text.matherr  0x00005e74        0x4 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+                0x00005e74                matherr
+ .text.rint     0x00005e78      0x144 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_rint.o)
+                0x00005e78                rint
+ .text.fabsf    0x00005fbc        0x8 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fabs.o)
+                0x00005fbc                fabsf
+ .text.finitef  0x00005fc4       0x14 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_finite.o)
+                0x00005fc4                finitef
+ .text.__fpclassifyf
+                0x00005fd8       0x40 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fpclassify.o)
+                0x00005fd8                __fpclassifyf
+ .text.nanf     0x00006018        0x8 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_nan.o)
+                0x00006018                nanf
+ .text.scalbnf  0x00006020       0xcc c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_scalbn.o)
+                0x00006020                scalbnf
+ .text.copysignf
+                0x000060ec        0xc c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_copysign.o)
+                0x000060ec                copysignf
+ .text          0x000060f8       0x14 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+                0x000060f8                __gnu_thumb1_case_uqi
+ .text          0x0000610c       0x14 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uhi.o)
+                0x0000610c                __gnu_thumb1_case_uhi
+ .text          0x00006120      0x120 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+                0x00006120                __aeabi_uidiv
+                0x00006120                __udivsi3
+                0x0000622c                __aeabi_uidivmod
+ .text          0x00006240      0x1e0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+                0x00006240                __divsi3
+                0x00006240                __aeabi_idiv
+                0x0000640c                __aeabi_idivmod
+ .text          0x00006420        0x4 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x00006420                __aeabi_idiv0
+                0x00006420                __aeabi_ldiv0
+ .text          0x00006424       0x7c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+                0x00006424                __aeabi_cdrcmple
+                0x00006434                __aeabi_cdcmple
+                0x00006434                __aeabi_cdcmpeq
+                0x00006444                __aeabi_dcmpeq
+                0x00006450                __aeabi_dcmplt
+                0x00006464                __aeabi_dcmple
+                0x00006478                __aeabi_dcmpgt
+                0x0000648c                __aeabi_dcmpge
+ .text          0x000064a0       0x74 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpsf2.o)
+                0x000064a0                __aeabi_cfrcmple
+                0x000064a8                __aeabi_cfcmpeq
+                0x000064a8                __aeabi_cfcmple
+                0x000064b8                __aeabi_fcmpeq
+                0x000064c4                __aeabi_fcmplt
+                0x000064d8                __aeabi_fcmple
+                0x000064ec                __aeabi_fcmpgt
+                0x00006500                __aeabi_fcmpge
+ .text          0x00006514      0x2f8 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(addsf3.o)
+                0x00006514                __aeabi_fadd
+ .text          0x0000680c      0x270 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divsf3.o)
+                0x0000680c                __aeabi_fdiv
+ .text          0x00006a7c       0x54 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqsf2.o)
+                0x00006a7c                __eqsf2
+                0x00006a7c                __nesf2
+ .text          0x00006ad0       0x94 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gesf2.o)
+                0x00006ad0                __gesf2
+                0x00006ad0                __gtsf2
+ .text          0x00006b64       0x8c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(lesf2.o)
+                0x00006b64                __ltsf2
+                0x00006b64                __lesf2
+ .text          0x00006bf0      0x264 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+                0x00006bf0                __aeabi_fmul
+ .text          0x00006e54      0x2fc c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subsf3.o)
+                0x00006e54                __aeabi_fsub
+ .text          0x00007150       0x90 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsisf.o)
+                0x00007150                __aeabi_i2f
+ .text          0x000071e0      0x650 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+                0x000071e0                __aeabi_dadd
+ .text          0x00007830      0x648 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+                0x00007830                __aeabi_ddiv
+ .text          0x00007e78       0x88 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+                0x00007e78                __nedf2
+                0x00007e78                __eqdf2
+ .text          0x00007f00       0xe0 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+                0x00007f00                __gedf2
+                0x00007f00                __gtdf2
+ .text          0x00007fe0       0xcc c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+                0x00007fe0                __ledf2
+                0x00007fe0                __ltdf2
+ .text          0x000080ac      0x534 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+                0x000080ac                __aeabi_dmul
+ .text          0x000085e0      0x6f4 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+                0x000085e0                __aeabi_dsub
+ .text          0x00008cd4       0x6c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+                0x00008cd4                __aeabi_d2iz
+ .text          0x00008d40       0x78 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsidf.o)
+                0x00008d40                __aeabi_i2d
+ .text          0x00008db8       0xa8 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(extendsfdf2.o)
+                0x00008db8                __aeabi_f2d
+ .text          0x00008e60      0x120 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(truncdfsf2.o)
+                0x00008e60                __aeabi_d2f
+ .text          0x00008f80       0x3c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+                0x00008f80                __clzsi2
+ .text.__errno  0x00008fbc        0xc c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+                0x00008fbc                __errno
+ .text.memset   0x00008fc8       0x8c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+                0x00008fc8                memset
+ .text.strcpy   0x00009054       0x10 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcpy.o)
+                0x00009054                strcpy
+ .text.strlen   0x00009064       0x68 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)
+                0x00009064                strlen
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x000090cc       0x36 ..\obj\sys_util.o
+ .rodata.str1.1
+                0x00009102       0xee ..\obj\drv_bt_SBC2112.o
+                                 0xf3 (size before relaxing)
+ .rodata.str1.1
+                0x000091f0       0x6f ..\obj\drv_timer.o
+ .rodata.str1.1
+                0x0000925f      0x16a ..\obj\drv_int.o
+ .rodata.str1.1
+                0x000093c9       0x45 ..\obj\main.o
+ .rodata.str1.1
+                0x0000940e       0xb7 ..\obj\sys_info.o
+                                 0xd9 (size before relaxing)
+ .rodata        0x000094c5      0x3d0 ..\obj\sys_ui.o
+                0x000094c5                ITRI_ICON
+                0x00009545                PEDO_ICON
+                0x000095bd                TEMP_ICON
+                0x00009635                HR_ICON
+                0x000096b5                ALT_ICON
+                0x0000972d                BLE_ICON
+                0x000097a5                BLE_CONN_ICON
+                0x0000981d                BLE_NOCONN_ICON
+ .rodata.str1.1
+                0x00009895       0x57 ..\obj\sys_ui.o
+ .rodata.str1.1
+                0x000098ec       0x8f ..\obj\drv_flash_SST25VF032B.o
+ *fill*         0x0000997b        0x1 
+ .rodata.str1.4
+                0x0000997c        0x5 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o)
+                                  0x8 (size before relaxing)
+ *fill*         0x00009981        0x3 
+ .rodata.dp_h   0x00009984        0x8 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o)
+ .rodata.dp_l   0x0000998c        0x8 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o)
+ .rodata.bp     0x00009994        0x8 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o)
+ .rodata.str1.4
+                0x00000000        0x8 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o)
+                                  0x4 (size before relaxing)
+ *fill*         0x0000999c        0x4 
+ .rodata.TWO52  0x000099a0       0x10 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_rint.o)
+ .rodata        0x000099b0       0x80 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divsf3.o)
+ .rodata        0x00009a30       0x40 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+ .rodata        0x00009a70       0x40 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+ .rodata        0x00009ab0       0x40 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+ *(.eh_fram e*)
+
+.glue_7         0x00009af0        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00009af0        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00009af0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00009af0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00009af0        0x0
+ .iplt          0x00000000        0x0 ..\obj\sys_util.o
+
+.rel.dyn        0x00009af0        0x0
+ .rel.iplt      0x00000000        0x0 ..\obj\sys_util.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00009af0                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00009af0                __exidx_end = .
+                0x00009af0                __etext = .
+                0x00009af0                _sidata = __etext
+
+.data           0x20000000      0x5dc load address 0x00009af0
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+ .data          0x20000000        0x4 ..\obj\drv_bt_SBC2112.o
+                0x20000000                bt_status
+ .data          0x20000004        0x8 ..\obj\drv_spi.o
+ .data          0x2000000c        0xc ..\obj\drv_i2c.o
+                0x20000014                sensor_I2C
+ .data          0x20000018       0x14 ..\obj\drv_timer.o
+                0x20000018                timer0_activate
+                0x2000001c                timer1_activate
+                0x20000020                timer2_activate
+                0x20000024                timer3_activate
+                0x20000028                backlight_off_counts
+ .data          0x2000002c        0x8 ..\obj\algo_pedo_r4.o
+ .data          0x20000034        0x4 ..\obj\system_NANO1xx.o
+                0x20000034                SystemCoreClock
+ .data          0x20000038      0x15c ..\obj\sys_info.o
+                0x20000038                ecg_cmd
+                0x2000008e                temp_cmd
+                0x200000e5                alt_cmd
+                0x2000013a                acc_cmd
+                0x20000190                sensorhub_state
+ *fill*         0x20000194        0x4 
+ .data          0x20000198      0x430 ..\obj\printf.o
+                0x20000198                _impure_ptr
+                0x200001a0                r
+ .data          0x200005c8        0x8 ..\obj\drv_uart.o
+                0x200005c8                con_port
+                0x200005cc                ble_port
+ .data          0x200005d0        0x8 ..\obj\algo_spo2hr.o
+ .data.__fdlib_version
+                0x200005d8        0x1 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_lib_ver.o)
+                0x200005d8                __fdlib_version
+                0x200005dc                . = ALIGN (0x4)
+ *fill*         0x200005d9        0x3 
+                0x200005dc                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x200005dc                PROVIDE (__preinit_array_end, .)
+                0x200005dc                . = ALIGN (0x4)
+                0x200005dc                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x200005dc                PROVIDE (__init_array_end, .)
+                0x200005dc                . = ALIGN (0x4)
+                0x200005dc                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x200005dc                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x200005dc                . = ALIGN (0x4)
+                0x200005dc                __data_end__ = .
+                0x200005dc                _edata = __data_end__
+
+.igot.plt       0x200005dc        0x0 load address 0x0000a0cc
+ .igot.plt      0x00000000        0x0 ..\obj\sys_util.o
+
+.bss            0x200005dc     0x1294 load address 0x0000a0cc
+                0x200005dc                . = ALIGN (0x4)
+                0x200005dc                __bss_start__ = .
+                0x200005dc                _sbss = __bss_start__
+ *(.bss*)
+ .bss           0x200005dc        0x8 ..\obj\drv_bt_SBC2112.o
+ .bss           0x200005e4        0x8 ..\obj\drv_spi.o
+                0x200005e4                spi0IntFlag
+                0x200005e8                spi1IntFlag
+ .bss           0x200005ec       0x2c ..\obj\drv_i2c.o
+                0x20000614                sensor_port
+ .bss           0x20000618        0x8 ..\obj\drv_display_SSD1306.o
+ .bss           0x20000620       0x24 ..\obj\drv_timer.o
+                0x20000620                current_ticks
+                0x20000624                timer0_status
+                0x20000628                display_refresh_tick
+                0x2000062c                ble_connection_tick
+                0x20000630                minute_up
+                0x20000634                pre_second
+                0x20000638                day_change
+                0x2000063c                display_on
+                0x20000640                pre_minute
+ .bss           0x20000644        0x8 ..\obj\drv_int.o
+ .bss           0x2000064c      0x3d0 ..\obj\algo_pedo_r4.o
+ .bss           0x20000a1c       0x30 ..\obj\sys_info.o
+                0x20000a1c                acc_x_raw_buff
+                0x20000a20                acc_y_raw_buff
+                0x20000a24                acc_z_raw_buff
+                0x20000a28                ecg_info_ptr
+                0x20000a2c                temp_info_ptr
+                0x20000a30                acc_info_ptr
+                0x20000a34                alt_info_ptr
+                0x20000a38                hr_info_val
+                0x20000a3a                alte_info_val
+                0x20000a3c                pedo_info_val
+                0x20000a40                temp_info_val
+                0x20000a44                battery_capacity
+                0x20000a48                current_sys_tick
+ .bss           0x20000a4c       0x10 ..\obj\sys_ui.o
+                0x20000a4c                symbol_width
+                0x20000a50                symbol_height
+                0x20000a54                symbol_len
+ .bss           0x20000a5c       0x10 ..\obj\sensor_alt_BMP180.o
+                0x20000a5c                ma_index
+                0x20000a60                ma_sum
+ .bss           0x20000a6c        0x8 ..\obj\drv_flash_SST25VF032B.o
+ .bss           0x20000a74       0x68 ..\obj\algo_spo2hr.o
+ .bss           0x20000adc       0x3c ..\obj\nano1xx_rtc.o
+ *(COMMON)
+ COMMON         0x20000b18       0x44 ..\obj\drv_timer.o
+                0x20000b18                bat_index
+                0x20000b1c                bat_value
+                0x20000b3c                adc_data
+                0x20000b58                bat_sum
+ COMMON         0x20000b5c      0xc34 ..\obj\sys_info.o
+                0x20000b5c                temp_raw_buff
+                0x20000b7c                alt_raw_buff
+                0x20000b9c                ecg_raw_buff
+                0x20000d9c                pedo_info_buff
+                0x20000f9c                hr_info_buff
+                0x2000101c                temp_info
+                0x20001054                alt_info
+                0x2000108c                Storage
+                0x200010c8                sys_tick_buff
+                0x200011c8                ecg_info
+                0x20001200                alt_info_buff
+                0x20001300                acc_all_raw_buff
+                0x20001600                temp_info_buff
+                0x20001700                acc_info
+                0x20001738                sh_info
+ COMMON         0x20001790       0x48 ..\obj\sys_ui.o
+                0x20001790                font_buffer
+                0x200017d0                state_msg
+ COMMON         0x200017d8       0x98 ..\obj\sensor_alt_BMP180.o
+                0x200017d8                ma_value
+                0x20001858                BMP180_Calib
+                0x20001870                . = ALIGN (0x4)
+                0x20001870                __bss_end__ = .
+                0x20001870                _ebss = __bss_end__
+
+.heap           0x20001870        0x0
+                0x20001870                __end__ = .
+                0x20001870                _end = __end__
+                0x20001870                end = __end__
+ *(.heap*)
+                0x20001870                __HeapLimit = .
+
+.co_stack       0x20001870      0x400 load address 0x0000b360
+                0x20001870                . = ALIGN (0x8)
+ *(.co_stack .co_stack.*)
+ .co_stack      0x20001870      0x400 ..\obj\startup_NANO1xx.o
+                0x20001870                pulStack
+                0x20004000                __StackTop = (ORIGIN (ram) + 0x4000)
+                0x20003c00                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                0x20004000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\sys_util.o
+LOAD ..\obj\drv_bt_SBC2112.o
+LOAD ..\obj\drv_spi.o
+LOAD ..\obj\drv_i2c.o
+LOAD ..\obj\nano1xx_sys.o
+LOAD ..\obj\drv_display_SSD1306.o
+LOAD ..\obj\drv_rtc.o
+LOAD ..\obj\nano1xx_gpio.o
+LOAD ..\obj\nano1xx_timer.o
+LOAD ..\obj\sys_shell.o
+LOAD ..\obj\drv_timer.o
+LOAD ..\obj\nano1xx_dac.o
+LOAD ..\obj\sys_init.o
+LOAD ..\obj\drv_int.o
+LOAD ..\obj\sensor_acc_LSM303DLHC.o
+LOAD ..\obj\nano1xx_pdma.o
+LOAD ..\obj\main.o
+LOAD ..\obj\algo_pedo_r4.o
+LOAD ..\obj\system_NANO1xx.o
+LOAD ..\obj\sys_info.o
+LOAD ..\obj\printf.o
+LOAD ..\obj\nano1xx_adc.o
+LOAD ..\obj\sys_ui.o
+LOAD ..\obj\sensor_alt_BMP180.o
+LOAD ..\obj\syscalls.o
+LOAD ..\obj\drv_adc.o
+LOAD ..\obj\nano1xx_fmc.o
+LOAD ..\obj\drv_uart.o
+LOAD ..\obj\startup_NANO1xx.o
+LOAD ..\obj\drv_flash_SST25VF032B.o
+LOAD ..\obj\nano1xx_spi.o
+LOAD ..\obj\nano1xx_i2c.o
+LOAD ..\obj\sensor_spo2.o
+LOAD ..\obj\algo_spo2hr.o
+LOAD ..\obj\nano1xx_rtc.o
+LOAD ..\obj\nano1xx_uart.o
+LOAD ..\obj\drv_gpio.o
+LOAD ..\obj\nano1xx_pwm.o
+LOAD c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a
+START GROUP
+LOAD c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a
+LOAD c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a
+LOAD c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libc.a
+END GROUP
+OUTPUT(SensorHub.elf elf32-littlearm)
+
+.debug_info     0x00000000    0x12601
+ .debug_info    0x00000000      0x10d ..\obj\sys_util.o
+ .debug_info    0x0000010d     0x1645 ..\obj\drv_bt_SBC2112.o
+ .debug_info    0x00001752      0x92c ..\obj\drv_spi.o
+ .debug_info    0x0000207e      0xe14 ..\obj\drv_i2c.o
+ .debug_info    0x00002e92      0x792 ..\obj\nano1xx_sys.o
+ .debug_info    0x00003624      0xbf4 ..\obj\drv_display_SSD1306.o
+ .debug_info    0x00004218      0x7f4 ..\obj\drv_rtc.o
+ .debug_info    0x00004a0c      0x587 ..\obj\nano1xx_gpio.o
+ .debug_info    0x00004f93      0x867 ..\obj\nano1xx_timer.o
+ .debug_info    0x000057fa      0x110 ..\obj\sys_shell.o
+ .debug_info    0x0000590a     0x11d0 ..\obj\drv_timer.o
+ .debug_info    0x00006ada       0xd7 ..\obj\sys_init.o
+ .debug_info    0x00006bb1      0xa93 ..\obj\drv_int.o
+ .debug_info    0x00007644      0x480 ..\obj\sensor_acc_LSM303DLHC.o
+ .debug_info    0x00007ac4      0x74a ..\obj\main.o
+ .debug_info    0x0000820e      0x331 ..\obj\algo_pedo_r4.o
+ .debug_info    0x0000853f      0x570 ..\obj\system_NANO1xx.o
+ .debug_info    0x00008aaf     0x11bd ..\obj\sys_info.o
+ .debug_info    0x00009c6c     0x112c ..\obj\printf.o
+ .debug_info    0x0000ad98      0x977 ..\obj\nano1xx_adc.o
+ .debug_info    0x0000b70f      0xc64 ..\obj\sys_ui.o
+ .debug_info    0x0000c373      0x8ca ..\obj\sensor_alt_BMP180.o
+ .debug_info    0x0000cc3d      0x51a ..\obj\drv_adc.o
+ .debug_info    0x0000d157      0x645 ..\obj\drv_uart.o
+ .debug_info    0x0000d79c      0x127 ..\obj\startup_NANO1xx.o
+ .debug_info    0x0000d8c3     0x11db ..\obj\drv_flash_SST25VF032B.o
+ .debug_info    0x0000ea9e     0x128b ..\obj\nano1xx_spi.o
+ .debug_info    0x0000fd29      0x8dc ..\obj\nano1xx_i2c.o
+ .debug_info    0x00010605      0x184 ..\obj\sensor_spo2.o
+ .debug_info    0x00010789      0x2b2 ..\obj\algo_spo2hr.o
+ .debug_info    0x00010a3b      0xb5b ..\obj\nano1xx_rtc.o
+ .debug_info    0x00011596      0xbe7 ..\obj\nano1xx_uart.o
+ .debug_info    0x0001217d      0x484 ..\obj\drv_gpio.o
+
+.debug_abbrev   0x00000000     0x41a0
+ .debug_abbrev  0x00000000       0xd1 ..\obj\sys_util.o
+ .debug_abbrev  0x000000d1      0x285 ..\obj\drv_bt_SBC2112.o
+ .debug_abbrev  0x00000356      0x30b ..\obj\drv_spi.o
+ .debug_abbrev  0x00000661      0x295 ..\obj\drv_i2c.o
+ .debug_abbrev  0x000008f6      0x26a ..\obj\nano1xx_sys.o
+ .debug_abbrev  0x00000b60      0x2e0 ..\obj\drv_display_SSD1306.o
+ .debug_abbrev  0x00000e40      0x205 ..\obj\drv_rtc.o
+ .debug_abbrev  0x00001045      0x1a8 ..\obj\nano1xx_gpio.o
+ .debug_abbrev  0x000011ed      0x1f6 ..\obj\nano1xx_timer.o
+ .debug_abbrev  0x000013e3       0x90 ..\obj\sys_shell.o
+ .debug_abbrev  0x00001473      0x371 ..\obj\drv_timer.o
+ .debug_abbrev  0x000017e4       0x8a ..\obj\sys_init.o
+ .debug_abbrev  0x0000186e      0x26d ..\obj\drv_int.o
+ .debug_abbrev  0x00001adb      0x189 ..\obj\sensor_acc_LSM303DLHC.o
+ .debug_abbrev  0x00001c64      0x18c ..\obj\main.o
+ .debug_abbrev  0x00001df0       0xdc ..\obj\algo_pedo_r4.o
+ .debug_abbrev  0x00001ecc      0x18d ..\obj\system_NANO1xx.o
+ .debug_abbrev  0x00002059      0x204 ..\obj\sys_info.o
+ .debug_abbrev  0x0000225d      0x364 ..\obj\printf.o
+ .debug_abbrev  0x000025c1      0x205 ..\obj\nano1xx_adc.o
+ .debug_abbrev  0x000027c6      0x2e5 ..\obj\sys_ui.o
+ .debug_abbrev  0x00002aab      0x1e7 ..\obj\sensor_alt_BMP180.o
+ .debug_abbrev  0x00002c92      0x1a7 ..\obj\drv_adc.o
+ .debug_abbrev  0x00002e39      0x20c ..\obj\drv_uart.o
+ .debug_abbrev  0x00003045       0xee ..\obj\startup_NANO1xx.o
+ .debug_abbrev  0x00003133      0x33a ..\obj\drv_flash_SST25VF032B.o
+ .debug_abbrev  0x0000346d      0x2dc ..\obj\nano1xx_spi.o
+ .debug_abbrev  0x00003749      0x23e ..\obj\nano1xx_i2c.o
+ .debug_abbrev  0x00003987       0x86 ..\obj\sensor_spo2.o
+ .debug_abbrev  0x00003a0d      0x107 ..\obj\algo_spo2hr.o
+ .debug_abbrev  0x00003b14      0x2d1 ..\obj\nano1xx_rtc.o
+ .debug_abbrev  0x00003de5      0x27f ..\obj\nano1xx_uart.o
+ .debug_abbrev  0x00004064      0x13c ..\obj\drv_gpio.o
+
+.debug_loc      0x00000000     0x7e4d
+ .debug_loc     0x00000000       0x81 ..\obj\sys_util.o
+ .debug_loc     0x00000081      0xaaf ..\obj\drv_bt_SBC2112.o
+ .debug_loc     0x00000b30      0x2d9 ..\obj\drv_spi.o
+ .debug_loc     0x00000e09      0x914 ..\obj\drv_i2c.o
+ .debug_loc     0x0000171d      0x24e ..\obj\nano1xx_sys.o
+ .debug_loc     0x0000196b      0x270 ..\obj\drv_display_SSD1306.o
+ .debug_loc     0x00001bdb      0x116 ..\obj\nano1xx_gpio.o
+ .debug_loc     0x00001cf1      0x272 ..\obj\nano1xx_timer.o
+ .debug_loc     0x00001f63      0x313 ..\obj\drv_timer.o
+ .debug_loc     0x00002276       0xdf ..\obj\drv_int.o
+ .debug_loc     0x00002355       0x36 ..\obj\sensor_acc_LSM303DLHC.o
+ .debug_loc     0x0000238b       0x14 ..\obj\main.o
+ .debug_loc     0x0000239f      0x4e3 ..\obj\algo_pedo_r4.o
+ .debug_loc     0x00002882       0xe9 ..\obj\system_NANO1xx.o
+ .debug_loc     0x0000296b      0x221 ..\obj\sys_info.o
+ .debug_loc     0x00002b8c      0xb04 ..\obj\printf.o
+ .debug_loc     0x00003690      0x3e7 ..\obj\nano1xx_adc.o
+ .debug_loc     0x00003a77     0x116f ..\obj\sys_ui.o
+ .debug_loc     0x00004be6      0x669 ..\obj\sensor_alt_BMP180.o
+ .debug_loc     0x0000524f       0x21 ..\obj\drv_adc.o
+ .debug_loc     0x00005270       0xee ..\obj\drv_uart.o
+ .debug_loc     0x0000535e       0x36 ..\obj\startup_NANO1xx.o
+ .debug_loc     0x00005394      0x876 ..\obj\drv_flash_SST25VF032B.o
+ .debug_loc     0x00005c0a      0xcca ..\obj\nano1xx_spi.o
+ .debug_loc     0x000068d4      0x2cb ..\obj\nano1xx_i2c.o
+ .debug_loc     0x00006b9f      0x327 ..\obj\algo_spo2hr.o
+ .debug_loc     0x00006ec6      0x966 ..\obj\nano1xx_rtc.o
+ .debug_loc     0x0000782c      0x621 ..\obj\nano1xx_uart.o
+
+.debug_aranges  0x00000000      0xc30
+ .debug_aranges
+                0x00000000       0x38 ..\obj\sys_util.o
+ .debug_aranges
+                0x00000038       0x50 ..\obj\drv_bt_SBC2112.o
+ .debug_aranges
+                0x00000088       0x60 ..\obj\drv_spi.o
+ .debug_aranges
+                0x000000e8       0x68 ..\obj\drv_i2c.o
+ .debug_aranges
+                0x00000150       0x48 ..\obj\nano1xx_sys.o
+ .debug_aranges
+                0x00000198       0x58 ..\obj\drv_display_SSD1306.o
+ .debug_aranges
+                0x000001f0       0x50 ..\obj\drv_rtc.o
+ .debug_aranges
+                0x00000240       0x48 ..\obj\nano1xx_gpio.o
+ .debug_aranges
+                0x00000288       0x80 ..\obj\nano1xx_timer.o
+ .debug_aranges
+                0x00000308       0x30 ..\obj\sys_shell.o
+ .debug_aranges
+                0x00000338       0x78 ..\obj\drv_timer.o
+ .debug_aranges
+                0x000003b0       0x38 ..\obj\sys_init.o
+ .debug_aranges
+                0x000003e8       0x48 ..\obj\drv_int.o
+ .debug_aranges
+                0x00000430       0x40 ..\obj\sensor_acc_LSM303DLHC.o
+ .debug_aranges
+                0x00000470       0x20 ..\obj\main.o
+ .debug_aranges
+                0x00000490       0x38 ..\obj\algo_pedo_r4.o
+ .debug_aranges
+                0x000004c8       0x50 ..\obj\system_NANO1xx.o
+ .debug_aranges
+                0x00000518       0x78 ..\obj\sys_info.o
+ .debug_aranges
+                0x00000590       0xa0 ..\obj\printf.o
+ .debug_aranges
+                0x00000630       0xb0 ..\obj\nano1xx_adc.o
+ .debug_aranges
+                0x000006e0       0x80 ..\obj\sys_ui.o
+ .debug_aranges
+                0x00000760       0x48 ..\obj\sensor_alt_BMP180.o
+ .debug_aranges
+                0x000007a8       0x40 ..\obj\drv_adc.o
+ .debug_aranges
+                0x000007e8       0x58 ..\obj\drv_uart.o
+ .debug_aranges
+                0x00000840       0x28 ..\obj\startup_NANO1xx.o
+ .debug_aranges
+                0x00000868       0x78 ..\obj\drv_flash_SST25VF032B.o
+ .debug_aranges
+                0x000008e0      0x110 ..\obj\nano1xx_spi.o
+ .debug_aranges
+                0x000009f0       0x68 ..\obj\nano1xx_i2c.o
+ .debug_aranges
+                0x00000a58       0x40 ..\obj\sensor_spo2.o
+ .debug_aranges
+                0x00000a98       0x38 ..\obj\algo_spo2hr.o
+ .debug_aranges
+                0x00000ad0       0x98 ..\obj\nano1xx_rtc.o
+ .debug_aranges
+                0x00000b68       0x88 ..\obj\nano1xx_uart.o
+ .debug_aranges
+                0x00000bf0       0x40 ..\obj\drv_gpio.o
+
+.debug_ranges   0x00000000      0xf50
+ .debug_ranges  0x00000000       0x28 ..\obj\sys_util.o
+ .debug_ranges  0x00000028       0x40 ..\obj\drv_bt_SBC2112.o
+ .debug_ranges  0x00000068       0x68 ..\obj\drv_spi.o
+ .debug_ranges  0x000000d0       0xf0 ..\obj\drv_i2c.o
+ .debug_ranges  0x000001c0       0x38 ..\obj\nano1xx_sys.o
+ .debug_ranges  0x000001f8      0x170 ..\obj\drv_display_SSD1306.o
+ .debug_ranges  0x00000368       0x40 ..\obj\drv_rtc.o
+ .debug_ranges  0x000003a8       0x98 ..\obj\nano1xx_gpio.o
+ .debug_ranges  0x00000440       0x70 ..\obj\nano1xx_timer.o
+ .debug_ranges  0x000004b0       0x20 ..\obj\sys_shell.o
+ .debug_ranges  0x000004d0       0x68 ..\obj\drv_timer.o
+ .debug_ranges  0x00000538       0x28 ..\obj\sys_init.o
+ .debug_ranges  0x00000560       0x88 ..\obj\drv_int.o
+ .debug_ranges  0x000005e8       0x30 ..\obj\sensor_acc_LSM303DLHC.o
+ .debug_ranges  0x00000618       0x10 ..\obj\main.o
+ .debug_ranges  0x00000628       0x28 ..\obj\algo_pedo_r4.o
+ .debug_ranges  0x00000650       0x40 ..\obj\system_NANO1xx.o
+ .debug_ranges  0x00000690       0x68 ..\obj\sys_info.o
+ .debug_ranges  0x000006f8       0xc0 ..\obj\printf.o
+ .debug_ranges  0x000007b8       0xa0 ..\obj\nano1xx_adc.o
+ .debug_ranges  0x00000858       0x70 ..\obj\sys_ui.o
+ .debug_ranges  0x000008c8       0x38 ..\obj\sensor_alt_BMP180.o
+ .debug_ranges  0x00000900       0x50 ..\obj\drv_adc.o
+ .debug_ranges  0x00000950       0x48 ..\obj\drv_uart.o
+ .debug_ranges  0x00000998       0x18 ..\obj\startup_NANO1xx.o
+ .debug_ranges  0x000009b0      0x170 ..\obj\drv_flash_SST25VF032B.o
+ .debug_ranges  0x00000b20      0x190 ..\obj\nano1xx_spi.o
+ .debug_ranges  0x00000cb0       0x58 ..\obj\nano1xx_i2c.o
+ .debug_ranges  0x00000d08       0x30 ..\obj\sensor_spo2.o
+ .debug_ranges  0x00000d38       0x28 ..\obj\algo_spo2hr.o
+ .debug_ranges  0x00000d60       0xb8 ..\obj\nano1xx_rtc.o
+ .debug_ranges  0x00000e18       0x78 ..\obj\nano1xx_uart.o
+ .debug_ranges  0x00000e90       0xc0 ..\obj\drv_gpio.o
+
+.debug_line     0x00000000     0x5e87
+ .debug_line    0x00000000       0x9f ..\obj\sys_util.o
+ .debug_line    0x0000009f      0x498 ..\obj\drv_bt_SBC2112.o
+ .debug_line    0x00000537      0x2a3 ..\obj\drv_spi.o
+ .debug_line    0x000007da      0x45c ..\obj\drv_i2c.o
+ .debug_line    0x00000c36      0x27f ..\obj\nano1xx_sys.o
+ .debug_line    0x00000eb5      0x506 ..\obj\drv_display_SSD1306.o
+ .debug_line    0x000013bb      0x258 ..\obj\drv_rtc.o
+ .debug_line    0x00001613      0x27c ..\obj\nano1xx_gpio.o
+ .debug_line    0x0000188f      0x306 ..\obj\nano1xx_timer.o
+ .debug_line    0x00001b95       0x7f ..\obj\sys_shell.o
+ .debug_line    0x00001c14      0x3da ..\obj\drv_timer.o
+ .debug_line    0x00001fee       0xc9 ..\obj\sys_init.o
+ .debug_line    0x000020b7      0x33b ..\obj\drv_int.o
+ .debug_line    0x000023f2      0x1bf ..\obj\sensor_acc_LSM303DLHC.o
+ .debug_line    0x000025b1      0x2a9 ..\obj\main.o
+ .debug_line    0x0000285a      0x1f4 ..\obj\algo_pedo_r4.o
+ .debug_line    0x00002a4e      0x1a4 ..\obj\system_NANO1xx.o
+ .debug_line    0x00002bf2      0x31d ..\obj\sys_info.o
+ .debug_line    0x00002f0f      0x330 ..\obj\printf.o
+ .debug_line    0x0000323f      0x363 ..\obj\nano1xx_adc.o
+ .debug_line    0x000035a2      0x54c ..\obj\sys_ui.o
+ .debug_line    0x00003aee      0x322 ..\obj\sensor_alt_BMP180.o
+ .debug_line    0x00003e10      0x1dd ..\obj\drv_adc.o
+ .debug_line    0x00003fed      0x1ed ..\obj\drv_uart.o
+ .debug_line    0x000041da       0x9c ..\obj\startup_NANO1xx.o
+ .debug_line    0x00004276      0x630 ..\obj\drv_flash_SST25VF032B.o
+ .debug_line    0x000048a6      0x5d1 ..\obj\nano1xx_spi.o
+ .debug_line    0x00004e77      0x289 ..\obj\nano1xx_i2c.o
+ .debug_line    0x00005100      0x15a ..\obj\sensor_spo2.o
+ .debug_line    0x0000525a      0x14e ..\obj\algo_spo2hr.o
+ .debug_line    0x000053a8      0x5a5 ..\obj\nano1xx_rtc.o
+ .debug_line    0x0000594d      0x37b ..\obj\nano1xx_uart.o
+ .debug_line    0x00005cc8      0x1bf ..\obj\drv_gpio.o
+
+.debug_str      0x00000000     0x37ba
+ .debug_str     0x00000000       0xed ..\obj\sys_util.o
+                                0x10b (size before relaxing)
+ .debug_str     0x000000ed      0x325 ..\obj\drv_bt_SBC2112.o
+                                0x460 (size before relaxing)
+ .debug_str     0x00000412      0x376 ..\obj\drv_spi.o
+                                0x502 (size before relaxing)
+ .debug_str     0x00000788      0x277 ..\obj\drv_i2c.o
+                                0x551 (size before relaxing)
+ .debug_str     0x000009ff      0x413 ..\obj\nano1xx_sys.o
+                                0x63e (size before relaxing)
+ .debug_str     0x00000e12      0x256 ..\obj\drv_display_SSD1306.o
+                                0x44a (size before relaxing)
+ .debug_str     0x00001068      0x22f ..\obj\drv_rtc.o
+                                0x50c (size before relaxing)
+ .debug_str     0x00001297       0xb9 ..\obj\nano1xx_gpio.o
+                                0x42d (size before relaxing)
+ .debug_str     0x00001350      0x16b ..\obj\nano1xx_timer.o
+                                0x546 (size before relaxing)
+ .debug_str     0x000014bb       0x77 ..\obj\sys_shell.o
+                                0x1b7 (size before relaxing)
+ .debug_str     0x00001532      0x5a2 ..\obj\drv_timer.o
+                                0x94a (size before relaxing)
+ .debug_str     0x00001ad4       0x6c ..\obj\sys_init.o
+                                0x17a (size before relaxing)
+ .debug_str     0x00001b40      0x160 ..\obj\drv_int.o
+                                0x612 (size before relaxing)
+ .debug_str     0x00001ca0       0xca ..\obj\sensor_acc_LSM303DLHC.o
+                                0x3b6 (size before relaxing)
+ .debug_str     0x00001d6a      0x16e ..\obj\main.o
+                                0x55f (size before relaxing)
+ .debug_str     0x00001ed8      0x15b ..\obj\algo_pedo_r4.o
+                                0x2bc (size before relaxing)
+ .debug_str     0x00002033       0x91 ..\obj\system_NANO1xx.o
+                                0x411 (size before relaxing)
+ .debug_str     0x000020c4      0x1af ..\obj\sys_info.o
+                                0x74b (size before relaxing)
+ .debug_str     0x00002273      0x488 ..\obj\printf.o
+                                0x64f (size before relaxing)
+ .debug_str     0x000026fb      0x2d5 ..\obj\nano1xx_adc.o
+                                0x6c1 (size before relaxing)
+ .debug_str     0x000029d0      0x13e ..\obj\sys_ui.o
+                                0x5be (size before relaxing)
+ .debug_str     0x00002b0e       0xcf ..\obj\sensor_alt_BMP180.o
+                                0x3a7 (size before relaxing)
+ .debug_str     0x00002bdd       0x66 ..\obj\drv_adc.o
+                                0x402 (size before relaxing)
+ .debug_str     0x00002c43      0x134 ..\obj\drv_uart.o
+                                0x431 (size before relaxing)
+ .debug_str     0x00002d77       0xb0 ..\obj\startup_NANO1xx.o
+                                0x157 (size before relaxing)
+ .debug_str     0x00002e27      0x12b ..\obj\drv_flash_SST25VF032B.o
+                                0x582 (size before relaxing)
+ .debug_str     0x00002f52      0x27f ..\obj\nano1xx_spi.o
+                                0x912 (size before relaxing)
+ .debug_str     0x000031d1       0xac ..\obj\nano1xx_i2c.o
+                                0x65a (size before relaxing)
+ .debug_str     0x0000327d       0x4c ..\obj\sensor_spo2.o
+                                0x1a5 (size before relaxing)
+ .debug_str     0x000032c9       0xa3 ..\obj\algo_spo2hr.o
+                                0x281 (size before relaxing)
+ .debug_str     0x0000336c      0x202 ..\obj\nano1xx_rtc.o
+                                0x765 (size before relaxing)
+ .debug_str     0x0000356e      0x1cd ..\obj\nano1xx_uart.o
+                                0x82d (size before relaxing)
+ .debug_str     0x0000373b       0x7f ..\obj\drv_gpio.o
+                                0x258 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ..\obj\sys_util.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ..\obj\drv_bt_SBC2112.o
+ .comment       0x00000000       0x71 ..\obj\drv_spi.o
+ .comment       0x00000000       0x71 ..\obj\drv_i2c.o
+ .comment       0x00000000       0x71 ..\obj\nano1xx_sys.o
+ .comment       0x00000000       0x71 ..\obj\drv_display_SSD1306.o
+ .comment       0x00000000       0x71 ..\obj\drv_rtc.o
+ .comment       0x00000000       0x71 ..\obj\nano1xx_gpio.o
+ .comment       0x00000000       0x71 ..\obj\nano1xx_timer.o
+ .comment       0x00000000       0x71 ..\obj\sys_shell.o
+ .comment       0x00000000       0x71 ..\obj\drv_timer.o
+ .comment       0x00000000       0x71 ..\obj\sys_init.o
+ .comment       0x00000000       0x71 ..\obj\drv_int.o
+ .comment       0x00000000       0x71 ..\obj\sensor_acc_LSM303DLHC.o
+ .comment       0x00000000       0x71 ..\obj\main.o
+ .comment       0x00000000       0x71 ..\obj\algo_pedo_r4.o
+ .comment       0x00000000       0x71 ..\obj\system_NANO1xx.o
+ .comment       0x00000000       0x71 ..\obj\sys_info.o
+ .comment       0x00000000       0x71 ..\obj\printf.o
+ .comment       0x00000000       0x71 ..\obj\nano1xx_adc.o
+ .comment       0x00000000       0x71 ..\obj\sys_ui.o
+ .comment       0x00000000       0x71 ..\obj\sensor_alt_BMP180.o
+ .comment       0x00000000       0x71 ..\obj\drv_adc.o
+ .comment       0x00000000       0x71 ..\obj\drv_uart.o
+ .comment       0x00000000       0x71 ..\obj\startup_NANO1xx.o
+ .comment       0x00000000       0x71 ..\obj\drv_flash_SST25VF032B.o
+ .comment       0x00000000       0x71 ..\obj\nano1xx_spi.o
+ .comment       0x00000000       0x71 ..\obj\nano1xx_i2c.o
+ .comment       0x00000000       0x71 ..\obj\sensor_spo2.o
+ .comment       0x00000000       0x71 ..\obj\algo_spo2hr.o
+ .comment       0x00000000       0x71 ..\obj\nano1xx_rtc.o
+ .comment       0x00000000       0x71 ..\obj\nano1xx_uart.o
+ .comment       0x00000000       0x71 ..\obj\drv_gpio.o
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 ..\obj\sys_util.o
+ .ARM.attributes
+                0x00000031       0x31 ..\obj\drv_bt_SBC2112.o
+ .ARM.attributes
+                0x00000062       0x31 ..\obj\drv_spi.o
+ .ARM.attributes
+                0x00000093       0x31 ..\obj\drv_i2c.o
+ .ARM.attributes
+                0x000000c4       0x31 ..\obj\nano1xx_sys.o
+ .ARM.attributes
+                0x000000f5       0x31 ..\obj\drv_display_SSD1306.o
+ .ARM.attributes
+                0x00000126       0x31 ..\obj\drv_rtc.o
+ .ARM.attributes
+                0x00000157       0x31 ..\obj\nano1xx_gpio.o
+ .ARM.attributes
+                0x00000188       0x31 ..\obj\nano1xx_timer.o
+ .ARM.attributes
+                0x000001b9       0x31 ..\obj\sys_shell.o
+ .ARM.attributes
+                0x000001ea       0x31 ..\obj\drv_timer.o
+ .ARM.attributes
+                0x0000021b       0x31 ..\obj\sys_init.o
+ .ARM.attributes
+                0x0000024c       0x31 ..\obj\drv_int.o
+ .ARM.attributes
+                0x0000027d       0x31 ..\obj\sensor_acc_LSM303DLHC.o
+ .ARM.attributes
+                0x000002ae       0x31 ..\obj\main.o
+ .ARM.attributes
+                0x000002df       0x31 ..\obj\algo_pedo_r4.o
+ .ARM.attributes
+                0x00000310       0x31 ..\obj\system_NANO1xx.o
+ .ARM.attributes
+                0x00000341       0x31 ..\obj\sys_info.o
+ .ARM.attributes
+                0x00000372       0x31 ..\obj\printf.o
+ .ARM.attributes
+                0x000003a3       0x31 ..\obj\nano1xx_adc.o
+ .ARM.attributes
+                0x000003d4       0x31 ..\obj\sys_ui.o
+ .ARM.attributes
+                0x00000405       0x31 ..\obj\sensor_alt_BMP180.o
+ .ARM.attributes
+                0x00000436       0x31 ..\obj\drv_adc.o
+ .ARM.attributes
+                0x00000467       0x31 ..\obj\drv_uart.o
+ .ARM.attributes
+                0x00000498       0x31 ..\obj\startup_NANO1xx.o
+ .ARM.attributes
+                0x000004c9       0x31 ..\obj\drv_flash_SST25VF032B.o
+ .ARM.attributes
+                0x000004fa       0x31 ..\obj\nano1xx_spi.o
+ .ARM.attributes
+                0x0000052b       0x31 ..\obj\nano1xx_i2c.o
+ .ARM.attributes
+                0x0000055c       0x31 ..\obj\sensor_spo2.o
+ .ARM.attributes
+                0x0000058d       0x31 ..\obj\algo_spo2hr.o
+ .ARM.attributes
+                0x000005be       0x31 ..\obj\nano1xx_rtc.o
+ .ARM.attributes
+                0x000005ef       0x31 ..\obj\nano1xx_uart.o
+ .ARM.attributes
+                0x00000620       0x31 ..\obj\drv_gpio.o
+ .ARM.attributes
+                0x00000651       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o)
+ .ARM.attributes
+                0x0000067d       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o)
+ .ARM.attributes
+                0x000006a9       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_sqrt.o)
+ .ARM.attributes
+                0x000006d5       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_lib_ver.o)
+ .ARM.attributes
+                0x00000701       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+ .ARM.attributes
+                0x0000072d       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_rint.o)
+ .ARM.attributes
+                0x00000759       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fabs.o)
+ .ARM.attributes
+                0x00000785       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_finite.o)
+ .ARM.attributes
+                0x000007b1       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fpclassify.o)
+ .ARM.attributes
+                0x000007dd       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_nan.o)
+ .ARM.attributes
+                0x00000809       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_scalbn.o)
+ .ARM.attributes
+                0x00000835       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_copysign.o)
+ .ARM.attributes
+                0x00000861       0x1e c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x0000087f       0x1e c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_thumb1_case_uhi.o)
+ .ARM.attributes
+                0x0000089d       0x1e c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000008bb       0x1e c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000008d9       0x1e c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000008f7       0x1e c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000915       0x1e c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x00000933       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(addsf3.o)
+ .ARM.attributes
+                0x0000095f       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divsf3.o)
+ .ARM.attributes
+                0x0000098b       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqsf2.o)
+ .ARM.attributes
+                0x000009b7       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gesf2.o)
+ .ARM.attributes
+                0x000009e3       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(lesf2.o)
+ .ARM.attributes
+                0x00000a0f       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+ .ARM.attributes
+                0x00000a3b       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subsf3.o)
+ .ARM.attributes
+                0x00000a67       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsisf.o)
+ .ARM.attributes
+                0x00000a93       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+ .ARM.attributes
+                0x00000abf       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+ .ARM.attributes
+                0x00000aeb       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+ .ARM.attributes
+                0x00000b17       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+ .ARM.attributes
+                0x00000b43       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+ .ARM.attributes
+                0x00000b6f       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+ .ARM.attributes
+                0x00000b9b       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+ .ARM.attributes
+                0x00000bc7       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+ .ARM.attributes
+                0x00000bf3       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsidf.o)
+ .ARM.attributes
+                0x00000c1f       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(extendsfdf2.o)
+ .ARM.attributes
+                0x00000c4b       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(truncdfsf2.o)
+ .ARM.attributes
+                0x00000c77       0x1e c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x00000c95       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000cc1       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000ced       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x00000d19       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)
+
+.debug_frame    0x00000000     0x22f4
+ .debug_frame   0x00000000       0x54 ..\obj\sys_util.o
+ .debug_frame   0x00000054       0xf0 ..\obj\drv_bt_SBC2112.o
+ .debug_frame   0x00000144       0xd4 ..\obj\drv_spi.o
+ .debug_frame   0x00000218      0x11c ..\obj\drv_i2c.o
+ .debug_frame   0x00000334       0xa8 ..\obj\nano1xx_sys.o
+ .debug_frame   0x000003dc       0xdc ..\obj\drv_display_SSD1306.o
+ .debug_frame   0x000004b8       0xc0 ..\obj\drv_rtc.o
+ .debug_frame   0x00000578       0xac ..\obj\nano1xx_gpio.o
+ .debug_frame   0x00000624      0x104 ..\obj\nano1xx_timer.o
+ .debug_frame   0x00000728       0x48 ..\obj\sys_shell.o
+ .debug_frame   0x00000770      0x13c ..\obj\drv_timer.o
+ .debug_frame   0x000008ac       0x58 ..\obj\sys_init.o
+ .debug_frame   0x00000904       0xa8 ..\obj\drv_int.o
+ .debug_frame   0x000009ac       0x88 ..\obj\sensor_acc_LSM303DLHC.o
+ .debug_frame   0x00000a34       0x2c ..\obj\main.o
+ .debug_frame   0x00000a60       0x74 ..\obj\algo_pedo_r4.o
+ .debug_frame   0x00000ad4       0xb0 ..\obj\system_NANO1xx.o
+ .debug_frame   0x00000b84      0x138 ..\obj\sys_info.o
+ .debug_frame   0x00000cbc      0x1d8 ..\obj\printf.o
+ .debug_frame   0x00000e94      0x17c ..\obj\nano1xx_adc.o
+ .debug_frame   0x00001010      0x178 ..\obj\sys_ui.o
+ .debug_frame   0x00001188       0xb0 ..\obj\sensor_alt_BMP180.o
+ .debug_frame   0x00001238       0x70 ..\obj\drv_adc.o
+ .debug_frame   0x000012a8       0xc0 ..\obj\drv_uart.o
+ .debug_frame   0x00001368       0x38 ..\obj\startup_NANO1xx.o
+ .debug_frame   0x000013a0      0x14c ..\obj\drv_flash_SST25VF032B.o
+ .debug_frame   0x000014ec      0x2b8 ..\obj\nano1xx_spi.o
+ .debug_frame   0x000017a4       0xcc ..\obj\nano1xx_i2c.o
+ .debug_frame   0x00001870       0x60 ..\obj\sensor_spo2.o
+ .debug_frame   0x000018d0       0x6c ..\obj\algo_spo2hr.o
+ .debug_frame   0x0000193c      0x19c ..\obj\nano1xx_rtc.o
+ .debug_frame   0x00001ad8      0x144 ..\obj\nano1xx_uart.o
+ .debug_frame   0x00001c1c       0x6c ..\obj\drv_gpio.o
+ .debug_frame   0x00001c88       0x38 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-wf_pow.o)
+ .debug_frame   0x00001cc0       0x3c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_pow.o)
+ .debug_frame   0x00001cfc       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-ef_sqrt.o)
+ .debug_frame   0x00001d28       0x20 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x00001d48       0x38 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_rint.o)
+ .debug_frame   0x00001d80       0x20 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fabs.o)
+ .debug_frame   0x00001da0       0x20 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_finite.o)
+ .debug_frame   0x00001dc0       0x20 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_fpclassify.o)
+ .debug_frame   0x00001de0       0x20 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_nan.o)
+ .debug_frame   0x00001e00       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_scalbn.o)
+ .debug_frame   0x00001e2c       0x20 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-sf_copysign.o)
+ .debug_frame   0x00001e4c       0x20 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001e6c       0x20 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x00001e8c       0x30 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(addsf3.o)
+ .debug_frame   0x00001ebc       0x3c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divsf3.o)
+ .debug_frame   0x00001ef8       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqsf2.o)
+ .debug_frame   0x00001f24       0x30 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gesf2.o)
+ .debug_frame   0x00001f54       0x30 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(lesf2.o)
+ .debug_frame   0x00001f84       0x3c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(mulsf3.o)
+ .debug_frame   0x00001fc0       0x30 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subsf3.o)
+ .debug_frame   0x00001ff0       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsisf.o)
+ .debug_frame   0x0000201c       0x38 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(adddf3.o)
+ .debug_frame   0x00002054       0x3c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(divdf3.o)
+ .debug_frame   0x00002090       0x38 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(eqdf2.o)
+ .debug_frame   0x000020c8       0x38 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(gedf2.o)
+ .debug_frame   0x00002100       0x38 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(ledf2.o)
+ .debug_frame   0x00002138       0x3c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(muldf3.o)
+ .debug_frame   0x00002174       0x3c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(subdf3.o)
+ .debug_frame   0x000021b0       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(fixdfsi.o)
+ .debug_frame   0x000021dc       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(floatsidf.o)
+ .debug_frame   0x00002208       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(extendsfdf2.o)
+ .debug_frame   0x00002234       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m\libgcc.a(truncdfsf2.o)
+ .debug_frame   0x00002260       0x20 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-errno.o)
+ .debug_frame   0x00002280       0x2c c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+ .debug_frame   0x000022ac       0x20 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcpy.o)
+ .debug_frame   0x000022cc       0x28 c:/coocox/toolchain/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen.o)

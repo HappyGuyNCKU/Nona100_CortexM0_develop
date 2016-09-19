@@ -1,0 +1,613 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "nano1xx.h"
+#include "nano1xx_gpio.h"
+#include "nano1xx_uart.h"
+
+#include "drv_bt_SBC2112.h"
+#include "sys_util.h"
+#include "sys_info.h"
+
+#define AT_ADV  "AT#ADV"
+#define AT_SAD  "AT#SAD"
+#define AT_DSC  "AT#DSC"
+#define AT_RST  "AT#RST"
+#define AT_RPT  "AT#RPT"
+#define AT_SLD  "AT#SLD"
+#define AT_ELD  "AT#ELD"
+#define AT_SSD  "AT#SSD"
+#define AT_BAU  "AT#BAU"
+#define AT_NAM  "AT#NAM"
+#define AT_RLA  "AT#RLA"
+#define AT_RLN  "AT#RLN"
+#define AT_SLP  "AT#SLP"
+#define AT_SCR  "AT#SCR"
+#define AT_CCP  "AT#CCP"
+#define AT_UCP  "AT#UCP"
+#define AT_LCP  "AT#LCP"
+#define AT_PPS  "AT#PPS"
+#define AT_PSF  "AT#PSF"
+#define AT_PWS  "AT#PWS"
+#define AT_PWM  "AT#PWM"
+#define AT_BAT  "AT#BAT"
+#define AT_BUS  "AT#BUS"
+#define AT_RUS  "AT#RUS"
+#define AT_BSS  "AT#BSS"
+#define AT_BSL  "AT#BSL"
+#define AT_BDA  "AT#BDA"
+#define AT_TPR  "AT#TPR"
+#define AT_TPS  "AT#TPS"
+#define AT_RSS  "AT#RSS"
+#define AT_ACK  "AT#ACK"
+#define AT_DAB  "AT#DAB"
+#define AT_UPF  "AT#UPF"
+#define AT_SCN  "AT#SCN"
+#define AT_CON  "AT#CON"
+#define AT_COB  "AT#COB"
+#define AT_PKI  "AT#PKI"
+
+#define MAX_SEND_LEN 16
+
+// in ble_port RECV, 1 loop time is about 4.1*10^-6, 120 seconds is about 29.26*10^6 => 30*10^6.
+//#define BT_RECV_TIMEOUT	(36*1000000)
+
+// in ble_port RECV, 1 loop time is about 4.1*10^-6, 61 seconds is about 14.88*10^6 => 15*10^6.
+#define BT_RECV_TIMEOUT	(18*1000000)
+
+volatile int bt_status = SBC2112_UNKNOWN;
+static int RPT = 0;
+static int BSL = 0;
+
+extern Sensor_Hub_Info sh_info;
+extern UART_TypeDef *con_port;
+extern UART_TypeDef *ble_port;
+
+int DRV_BT_SBC2112_Init() {
+	int len = 0;
+	unsigned char buff = 0x00;
+	unsigned char txbuff[128];
+	unsigned char rxbuff[128];
+	unsigned char *ptr = NULL;
+
+	if(bt_status == SBC2112_READY)	return SBC2112_READY;
+
+	//GPIO_SetBit(GPIOC, 7);
+	//GPIO_SetBit(GPIOA, 13);
+
+	//sys_delay(10000);
+
+	len = 0;
+	ptr = rxbuff;
+	memset(rxbuff, 0x00, 128);
+
+	// reset SBC2112 BLE Module
+	memset(txbuff, 0x00, 16);
+	sprintf((char *)txbuff, "%s\r\n", AT_RST);
+	UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+	UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+	while(1) {
+		UART_Read(ble_port, &buff, 1);
+
+		// for redirect ble message to con_port, debug only!
+		UART_Write(con_port, &buff, 1);
+
+		*ptr = buff;
+		ptr++;
+		if(len > 5 &&
+		   rxbuff[len - 4] == 'R' &&
+		   rxbuff[len - 3] == 'D' &&
+		   rxbuff[len - 2] == 'Y') break;
+		len++;
+	}
+
+	// Get SBC2112 Status
+	len = 0;
+	ptr = rxbuff;
+	memset(txbuff, 0x00, 16);
+	sprintf((char *)txbuff, "%s\r\n", AT_RPT);
+	UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+	UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+	while(1) {
+		UART_Read(ble_port, &buff, 1);
+
+		// for redirect ble message to con_port, debug only!
+		UART_Write(con_port, &buff, 1);
+
+		*ptr = buff;
+		ptr++;
+		if(len > 5 &&
+		   rxbuff[len - 4] == '<' &&
+		   rxbuff[len - 2] == '>') {
+			RPT = hex_to_dec(rxbuff[len - 3]);
+			break;
+		}
+		len++;
+	}
+
+	if(RPT != 8) {
+		len = 0;
+		ptr = rxbuff;
+		memset(txbuff, 0x00, 16);
+		sprintf((char *)txbuff, "%s 0\r\n", AT_ADV);
+		UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+		UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+		while(1) {
+			UART_Read(ble_port, &buff, 1);
+
+			// for redirect ble message to con_port, debug only!
+			UART_Write(con_port, &buff, 1);
+
+			*ptr = buff;
+			ptr++;
+			if(len > 3 && rxbuff[len - 3] == 'O' && rxbuff[len - 2] == 'K') 	break;
+			len++;
+		}
+
+		len = 0;
+		ptr = rxbuff;
+		memset(txbuff, 0x00, 16);
+		sprintf((char *)txbuff, "%s 1\r\n", AT_BSS);
+		UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+		UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+		while(1) {
+			UART_Read(ble_port, &buff, 1);
+
+			// for redirect ble message to con_port, debug only!
+			UART_Write(con_port, &buff, 1);
+
+			*ptr = buff;
+			ptr++;
+			if(len > 3 && rxbuff[len - 3] == 'O' && rxbuff[len - 2] == 'K') 	break;
+			len++;
+		}
+
+		sys_delay(100000);
+
+		len = 0;
+		ptr = rxbuff;
+		memset(txbuff, 0x00, 16);
+		sprintf(txbuff, "%s 3\r\n", AT_ADV);
+		UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+		UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+		while(1) {
+			UART_Read(ble_port, &buff, 1);
+
+			// for redirect ble message to con_port, debug only!
+			UART_Write(con_port, &buff, 1);
+
+			*ptr = buff;
+			ptr++;
+			if(len > 5 &&
+			   rxbuff[len - 4] == 'F' &&
+			   rxbuff[len - 3] == 'A' &&
+			   rxbuff[len - 2] == 'D') break;
+			len++;
+		}
+	}
+
+	len = 0;
+	ptr = rxbuff;
+	memset(txbuff, 0x00, 16);
+	sprintf(txbuff, "%s\r\n", AT_BSL);
+	UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+	UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+	while(1) {
+		UART_Read(ble_port, &buff, 1);
+
+		// for redirect ble message to con_port, debug only!
+		UART_Write(con_port, &buff, 1);
+
+		*ptr = buff;
+		ptr++;
+		if(len > 5 &&
+		   rxbuff[len - 4] == '<' &&
+		   rxbuff[len - 2] == '>') {
+			BSL = hex_to_dec(rxbuff[len - 3]);
+			break;
+		}
+		len++;
+	}
+
+	sys_delay(10000);
+
+	len = 0;
+	ptr = rxbuff;
+	memset(txbuff, 0x00, 16);
+	sprintf(txbuff, "%s\r\n", AT_RLN);
+	UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+	UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+	while(1) {
+		UART_Read(ble_port, &buff, 1);
+
+		// for redirect ble message to con_port, debug only!
+		UART_Write(con_port, &buff, 1);
+
+		*ptr = buff;
+		ptr++;
+		if(len > 5 && rxbuff[len - 2] == '>') break;
+		len++;
+	}
+
+	sys_delay(10000);
+
+	len = 0;
+	ptr = rxbuff;
+	memset(txbuff, 0x00, 16);
+	sprintf(txbuff, "%s\r\n", AT_RLA);
+	UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+	UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+	while(1) {
+		UART_Read(ble_port, &buff, 1);
+
+		// for redirect ble message to con_port, debug only!
+		UART_Write(con_port, &buff, 1);
+
+		*ptr = buff;
+		ptr++;
+		if(len > 5 && rxbuff[len - 2] == '>') break;
+		len++;
+	}
+
+	//UART_Write(con_port, "==\r\n", 4);
+	//UART_Write(con_port, rxbuff, strlen(rxbuff));
+	//UART_Write(con_port, "==\r\n", 4);
+
+	len = 0;
+	while(1){
+		if(len > 4 &&
+		   rxbuff[len - 2] == 'R' &&
+		   rxbuff[len - 1] == 'L' &&
+		   rxbuff[len - 0] == 'A') break;
+		len++;
+	}
+
+	len += 2;
+
+	sh_info.ble_mac[0] = rxbuff[len + 0];
+	sh_info.ble_mac[1] = rxbuff[len + 1];
+	sh_info.ble_mac[2] = ':';
+
+	sh_info.ble_mac[3] = rxbuff[len + 2];
+	sh_info.ble_mac[4] = rxbuff[len + 3];
+	sh_info.ble_mac[5] = ':';
+
+	sh_info.ble_mac[6] = rxbuff[len + 5];
+	sh_info.ble_mac[7] = rxbuff[len + 6];
+	sh_info.ble_mac[8] = ':';
+
+	sh_info.ble_mac[9]  = rxbuff[len + 8];
+	sh_info.ble_mac[10] = rxbuff[len + 9];
+	sh_info.ble_mac[11] = ':';
+
+	sh_info.ble_mac[12] = rxbuff[len + 10];
+	sh_info.ble_mac[13] = rxbuff[len + 11];
+	sh_info.ble_mac[14] = ':';
+
+	sh_info.ble_mac[15] = rxbuff[len + 12];
+	sh_info.ble_mac[16] = rxbuff[len + 13];
+	sh_info.ble_mac[17] = 0x00;
+
+	//UART_Write(con_port, sh_info.ble_mac, strlen(sh_info.ble_mac));
+	//UART_Write(con_port, "\r\n", 2);
+
+	sys_delay(10000);
+
+	len = 0;
+	ptr = rxbuff;
+	memset(txbuff, 0x00, 16);
+	sprintf(txbuff, "%s 2\r\n", AT_SLP);
+	UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+	UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+	while(1) {
+		UART_Read(ble_port, &buff, 1);
+
+		// for redirect ble message to con_port, debug only!
+		UART_Write(con_port, &buff, 1);
+
+		*ptr = buff;
+		ptr++;
+		if(len > 5 &&
+		   rxbuff[len - 4] == '<' &&
+		   rxbuff[len - 2] == '>') {
+			break;
+		}
+		len++;
+	}
+
+	sys_delay(10000);
+
+	len = 0;
+	ptr = rxbuff;
+	memset(txbuff, 0x00, 16);
+	sprintf(txbuff, "%s 0 5\r\n", AT_PSF);
+	UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+	UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+	while(1) {
+		UART_Read(ble_port, &buff, 1);
+
+		// for redirect ble message to con_port, debug only!
+		UART_Write(con_port, &buff, 1);
+
+		*ptr = buff;
+		ptr++;
+		if(len > 4 && rxbuff[len - 3] == 'O' && rxbuff[len - 2] == 'K') 	break;
+		len++;
+	}
+
+	sys_delay(10000);
+
+	len = 0;
+	ptr = rxbuff;
+	memset(txbuff, 0x00, 16);
+	sprintf(txbuff, "%s SH_%s\r\n", AT_NAM, sh_info.ble_mac + 12);
+	UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+	UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+	while(1) {
+		UART_Read(ble_port, &buff, 1);
+
+		// for redirect ble message to con_port, debug only!
+		UART_Write(con_port, &buff, 1);
+
+		*ptr = buff;
+		ptr++;
+		if(len > 4 && rxbuff[len - 3] == 'O' && rxbuff[len - 2] == 'K') 	break;
+		len++;
+	}
+
+	bt_status = SBC2112_READY;
+
+	return bt_status;
+}
+
+int DRV_BT_SBC2112_Wait_Connect() {
+	int len = 0;
+	unsigned char buff = 0x00;
+	unsigned char txbuff[128];
+	unsigned char rxbuff[128];
+	unsigned char *ptr = NULL;
+
+	if(bt_status == SBC2112_READY) {
+		while(1) {
+			sys_delay(10000);
+
+			if(bt_status == SBC2112_DISCONNECT || bt_status == SBC2112_UNKNOWN)	goto bt_finish;
+
+			len = 0;
+			ptr = rxbuff;
+			memset(txbuff, 0x00, 32);
+			sprintf(txbuff, "\r\nwait connection request....\r\n");
+			UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+			while(1) {
+				BT_UART_Read(ble_port, &buff, 1);
+
+				if(bt_status == SBC2112_DISCONNECT || bt_status == SBC2112_UNKNOWN) {
+					//memset(txbuff, 0x00, 32);
+					//sprintf(txbuff, "\r\nexit after ble_port_Read....\r\n");
+					//UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+					goto bt_finish;
+				}
+
+				// for redirect ble message to con_port, debug only!
+				UART_Write(con_port, &buff, 1);
+
+				*ptr = buff;
+				ptr++;
+				if(len > 5 &&
+				   rxbuff[len - 4] == 'C' &&
+				   rxbuff[len - 3] == 'O' &&
+				   rxbuff[len - 2] == 'N') {
+					bt_status = SBC2112_CONNECTED;
+					break;
+				}
+				len++;
+				if(len == 128) break;
+			}
+			if(bt_status == SBC2112_CONNECTED) break;
+		}
+	}
+
+bt_finish:
+
+	return bt_status;
+}
+
+int DRV_BT_SBC2112_Stop() {
+	int len = 0;
+	unsigned char buff = 0x00;
+	unsigned char txbuff[128];
+	unsigned char rxbuff[128];
+	unsigned char *ptr = NULL;
+
+	if(bt_status == SBC2112_UNKNOWN) return -1;
+
+	len = 0;
+	ptr = rxbuff;
+	memset(txbuff, 0x00, 16);
+	sprintf(txbuff, "%s\r\n", AT_DSC);
+	UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+	UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+	while(1) {
+		UART_Read(ble_port, &buff, 1);
+
+		// for redirect ble message to con_port, debug only!
+		UART_Write(con_port, &buff, 1);
+
+		*ptr = buff;
+		ptr++;
+		if(len > 4 &&
+		   rxbuff[len - 3] == 'O' &&
+		   rxbuff[len - 2] == 'K') break;
+		if(len > 3 && rxbuff[len - 2] == '>') break;
+		len++;
+	}
+
+	len = 0;
+	ptr = rxbuff;
+	memset(txbuff, 0x00, 16);
+	sprintf(txbuff, "%s\r\n", AT_SAD);
+	UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+	UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+	while(1) {
+		UART_Read(ble_port, &buff, 1);
+
+		// for redirect ble message to con_port, debug only!
+		UART_Write(con_port, &buff, 1);
+
+		*ptr = buff;
+		ptr++;
+		if(len > 5 &&
+		   rxbuff[len - 4] == 'I' &&
+		   rxbuff[len - 3] == 'D' &&
+		   rxbuff[len - 2] == 'L') break;
+		if(len > 3 && rxbuff[len - 2] == '>') break;
+		if(len > 5 &&
+		   rxbuff[len - 4] == 'F' &&
+		   rxbuff[len - 3] == 'A' &&
+		   rxbuff[len - 2] == 'D') break;
+		len++;
+	}
+
+
+	len = 0;
+	ptr = rxbuff;
+	memset(txbuff, 0x00, 16);
+	sprintf(txbuff, "%s\r\n", AT_RST);
+	UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+	UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+	while(1) {
+		UART_Read(ble_port, &buff, 1);
+
+		// for redirect ble message to con_port, debug only!
+		UART_Write(con_port, &buff, 1);
+
+		*ptr = buff;
+		ptr++;
+		if(len > 5 &&
+		   rxbuff[len - 4] == 'R' &&
+		   rxbuff[len - 3] == 'D' &&
+		   rxbuff[len - 2] == 'Y') break;
+		len++;
+	}
+
+	bt_status = SBC2112_UNKNOWN;
+
+	return 0;
+}
+
+int DRV_BT_SBC2112_Send(unsigned char *databuff, int databufflen) {
+	int len = 0;
+	unsigned char txbuff[64];
+
+	if(bt_status != SBC2112_CONNECTED) return -1;
+
+	memset(txbuff, 0x00, 64);
+	sprintf(txbuff, "input ==>\r\n");
+	UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+	UART_Write(con_port, databuff, databufflen);
+
+	memset(txbuff, 0x00, 64);
+	sprintf(txbuff, "<== %d bytes\r\n", databufflen);
+	UART_Write(con_port, txbuff, strlen((const char *)txbuff));
+
+	memset(txbuff, 0x00, 64);
+	sprintf(txbuff, "%s\r\n", AT_SLD);
+	UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+
+	UART_Write(ble_port, databuff, databufflen);
+
+	sys_delay(40000);
+
+	memset(txbuff, 0x00, 64);
+	sprintf(txbuff, "%s\r\n", AT_ELD);
+	UART_Write(ble_port, txbuff, strlen((const char *)txbuff));
+
+	return 0;
+}
+
+int DRV_BT_SBC2112_Recv(unsigned char *databuff, int databufflen) {
+	int len = 0;
+	unsigned char buff = 0x00;
+	unsigned char *ptr = NULL;
+
+	if(bt_status != SBC2112_CONNECTED) return -1;
+
+	len = 0;
+	ptr = databuff;
+
+	while(1) {
+		BT_UART_Read(ble_port, &buff, 1);
+
+		if(bt_status == SBC2112_DISCONNECT || bt_status == SBC2112_UNKNOWN)	break;
+
+		// for redirect ble message to con_port, debug only!
+		UART_Write(con_port, &buff, 1);
+
+		*ptr = buff;
+		ptr++;
+		if(len > 5 &&
+			databuff[len - 4] == 'P' &&
+			databuff[len - 3] == 'D' &&
+			databuff[len - 2] == 'E') break;
+		len++;
+		if(len == databufflen) break;
+	}
+
+	return 0;
+}
+
+int BT_UART_Read(UART_TypeDef  *tUART, unsigned char *pu8RxBuf, unsigned int u32ReadBytes) {
+	unsigned int u32Count, u32delayno;
+
+	for (u32Count=0; u32Count < u32ReadBytes; u32Count++) {
+
+		u32delayno = 0;
+		while (tUART->FSR & UART_FSR_RX_EMPTY_F) {	// Check RX empty => failed
+			u32delayno++;
+			if(u32delayno >=  BT_RECV_TIMEOUT)	{
+				bt_status = SBC2112_DISCONNECT;
+			}
+			if(bt_status == SBC2112_DISCONNECT || bt_status == SBC2112_UNKNOWN)	break;
+		}
+
+		pu8RxBuf[u32Count] = tUART->RBR;			// Get Data from UART RX
+
+		if(bt_status == SBC2112_DISCONNECT || bt_status == SBC2112_UNKNOWN)	break;
+	}
+
+	return E_SUCCESS;
+}
+
+int BT_UART_Write(UART_TypeDef *tUART, unsigned char *pu8TxBuf, unsigned int u32WriteBytes) {
+	unsigned int u32Count, u32delayno;
+
+	for (u32Count=0; u32Count<u32WriteBytes; u32Count++) {
+        u32delayno = 0;
+
+		while (!(tUART->FSR & UART_FSR_TX_EMPTY_F)) {	// Wait Tx empty and Time-out manner
+       	    u32delayno++;
+			if ( u32delayno >= 0x40000000 )	return E_DRVUART_ERR_TIMEOUT;
+        }
+		//sys_delay(200);
+		tUART->THR = pu8TxBuf[u32Count]; 				// Send UART Data from buffer
+    }
+
+    return E_SUCCESS;
+}
